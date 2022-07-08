@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { BsArrowUpRight } from 'react-icons/bs';
 
-const serviceSection = () => {
+const ServiceSection = () => {
 	return (
 		<div className='container px-[112px]'>
 			<h1 className='text-[#00CCCD] leading-[55px]'>
@@ -63,4 +63,4 @@ const serviceSection = () => {
 	);
 };
 
-export default serviceSection;
+export default ServiceSection;
