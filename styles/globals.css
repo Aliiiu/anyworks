@@ -1,16 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1440px;
+}
+
+.btnStyle {
+	border: 1px solid #7e00c4;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+	border-radius: 8px;
+}
+
+.navText {
+	color: rgba(33, 6, 57, 0.6);
+	font-weight: 500;
+	font-size: 16px;
+}
+
+h1 {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 80px;
+	letter-spacing: -0.02em;
+	color: #1d2939;
+	text-decoration-color: #7e00c4;
+}
+
+.serviceStyle {
+	box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
+		0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+	border-radius: 20px;
+	/* background-image: url('/images/service-1.png');
+	background-size: contain; */
+}
+
+.styledAnchor {
+	background: #ffffff;
+	box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08),
+		0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+}
+
+.serviceTag {
+	background: rgba(255, 255, 255, 0.3);
+	backdrop-filter: blur(24px);
 }
