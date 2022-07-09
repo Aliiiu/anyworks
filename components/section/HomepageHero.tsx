@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const HomepageHero = () => {
 	return (
-		<div className='flex justify-between container px-[112px]'>
+		<div className='flex justify-between container '>
 			<div className='mt-[129px] w-[45%]'>
 				<h1 className='underline'>
 					Ut pellentesque <br /> enim non nisl, <br /> tortor pretium.

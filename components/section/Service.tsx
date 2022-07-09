@@ -6,7 +6,7 @@ const ServiceSection = () => {
 		<div className='container px-[112px]'>
 			<h1 className='text-[#00CCCD] leading-[55px]'>
 				One Platform <br /> Many{' '}
-				<span className='text-[#7E00C4]'>Services</span>
+				<span className='text-primary'>Services</span>
 			</h1>
 			<p className='text-[#00CCCD] mt-[23px] mb-[35px]'>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in
@@ -50,7 +50,7 @@ const ServiceSection = () => {
 						</div>
 					</div>
 				</div>
-				<div className='bg-[#7E00C4] w-full h-full rounded-[20px] flex justify-center items-center'>
+				<div className='bg-primary w-full h-full rounded-[20px] flex justify-center items-center'>
 					<div className='flex flex-col items-center gap-y-[19px]'>
 						<a className='styledAnchor flex justify-center items-center w-[63px] h-[63px] rounded-[100%]'>
 							<BsArrowUpRight className='text-[#210639] text-[16px]' />
