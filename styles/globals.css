@@ -30,6 +30,12 @@ a {
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 1440px;
+	padding-left: 50px;
+    padding-right: 50px;
+
+}
+body{
+	border: 1px solid;
 }
 
 .btnStyle {
@@ -47,10 +53,7 @@ a {
 	border-bottom: 3px solid transparent;
 padding: 5px 0;
 }
-.container{
-	padding-left: 50px;
-    padding-right: 50px;
-}
+
 
 .nav-link:hover{
 	border-bottom: 3px solid #7E00C4;

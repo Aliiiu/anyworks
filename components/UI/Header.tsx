@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Button from './Button';
 import Link from 'next/link'
 
-
 const Header: FC<{}> = () => {
     const [headerStyle, setHeaderStyle] = useState(false);
 
@@ -16,7 +15,7 @@ const Header: FC<{}> = () => {
     }, []);
     return (
         <>
-            <div className={`z-10  py-[15px]  fixed w-[100%] ${headerStyle ? "bg-white shadow-sm" : ""
+            <div className={`z-10  py-[15px] top-0  fixed w-[100%] ${headerStyle ? "bg-white shadow-sm" : ""
                 }`}>
                 <div className='container'>
                     <header className='flex items-center justify-between'>
@@ -30,7 +29,7 @@ const Header: FC<{}> = () => {
                                 width={137}
                             />
                         </Link>
-                        <nav>
+                        <nav className='md:hidden'>
                             <ul className='flex gap-x-[64px]'>
                                 <li className='nav-link'>
                                     <Link href='/services'>Services</Link>
@@ -38,7 +37,14 @@ const Header: FC<{}> = () => {
                                 <li className='nav-link'><Link href='#'>FAQ</Link></li>
                             </ul>
                         </nav>
-                        <Button styles='bg-primary' content='Join the Waitlist' />
+                        <Button styles='bg-primary md:hidden' content='Join the Waitlist' />
+                        <Image
+                            className='cursor-pointer'
+                            src={'/svgs/menu.svg'}
+                            alt='menu'
+                            height={45}
+                            width={45}
+                        />
                     </header>
                 </div>
 
