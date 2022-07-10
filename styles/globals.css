@@ -30,13 +30,14 @@ a {
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 1440px;
-	padding-left: 50px;
-    padding-right: 50px;
+	padding-left: 70px;
+    padding-right: 70px;
 
 }
-body{
+
+/* body{
 	border: 1px solid;
-}
+} */
 
 .btnStyle {
 	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
@@ -51,12 +52,15 @@ body{
 	font-weight: 500;
 	font-size: 16px;
 	border-bottom: 3px solid transparent;
-padding: 5px 0;
+	padding: 5px 0;
 }
 
+.nav-link.active{
+	border-bottom: 3px solid #7E00C4;
+}
 
 .nav-link:hover{
-	border-bottom: 3px solid #7E00C4;
+	color: #1d2939;
 	transition:.3s;
 }
 
@@ -89,3 +93,13 @@ h1 {
 	background: rgba(255, 255, 255, 0.3);
 	backdrop-filter: blur(24px);
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+	.container {
+	  padding: 0 30px;
+	}
+  }
+
