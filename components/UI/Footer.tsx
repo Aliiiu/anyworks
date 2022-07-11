@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Footer = () => {
 	return (
 		<div>
-			<div className='md:pt-[66px] pt-[55px] px-[32px] pb-[63px] md:pb-[40px] border-b border-[#210639] lg:px-[114px] bg-[#210639] flex flex-col md:flex-row justify-between'>
+			<div className='md:pt-[66px] pt-[55px] px-[32px] pb-[63px] md:pb-[40px] lg:px-[114px] bg-[#210639] flex flex-col md:flex-row justify-between'>
 				<div className='flex flex-col items-start gap-y-[23px]'>
 					<Image
 						src={'/images/logo-white.png'}
@@ -48,7 +48,7 @@ const Footer = () => {
 			</div>
 			<div className='md:pt-[48px] pb-[66px] px-[32px] lg:px-[114px] bg-[#210639]'>
 				<div className='bg-[#7E00C4] mb-[24px] md:mb-0 w-full h-[1px]'></div>
-				<div className='flex flex-col-reverse md:flex-row justify-between w-full lg:mt-[67px]'>
+				<div className='flex flex-col-reverse md:flex-row justify-between w-full md:mt-[34px] lg:mt-[67px]'>
 					<p className='text-white text-[16px] md:text-[20px]'>
 						© 2022 AnyWorks. All rights reserved.
 					</p>

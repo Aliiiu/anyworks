@@ -13,45 +13,45 @@ const ServiceSection = () => {
 				convallis nec.
 			</p>
 			<div className='bg-[#00CCCD] grid grid-rows-4 gap-y-[20px] md:grid-cols-2 md:grid-rows-1 lg:grid-cols-4 md:gap-x-[20px] rounded-[30px] p-[15px] w-full'>
-				<div className='w-full overflow-hidden serviceStyle'>
-					<div className='relative'>
-						<Image
+				<div className='w-full relative overflow-hidden serviceOne h-[300px] bg-center serviceStyle'>
+					<div className=''>
+						{/* <Image
 							src={'/images/service-1.png'}
 							alt='delivery service'
 							layout='fixed'
 							width={'500px'}
 							height='380px'
 							objectFit='cover'
-						/>
+						/> */}
 						<div className='flex justify-center items-center absolute bottom-0 w-full text-white serviceTag h-[70px]'>
 							Quick Errands
 						</div>
 					</div>
 				</div>
-				<div className='w-full overflow-hidden serviceStyle'>
-					<div className='relative'>
-						<Image
+				<div className='w-full relative overflow-hidden serviceTwo h-[300px] bg-center serviceStyle'>
+					<div className=''>
+						{/* <Image
 							src={'/images/service-2.png'}
 							alt='delivery service'
 							layout='fixed'
 							width={'500px'}
 							height='380px'
 							objectFit='cover'
-						/>
+						/> */}
 						<div className='flex justify-center items-center absolute bottom-0 w-full text-white serviceTag h-[70px]'>
 							Plumber
 						</div>
 					</div>
 				</div>
-				<div className='overflow-hidden serviceStyle'>
-					<div className='relative'>
-						<Image
+				<div className='overflow-hidden relative serviceThree h-[300px] bg-center serviceStyle'>
+					<div className=''>
+						{/* <Image
 							src={'/images/service-3.png'}
 							alt='delivery service'
 							layout='fixed'
 							width={'500px'}
 							height='380px'
-						/>
+						/> */}
 						<div className='flex justify-center items-center absolute bottom-0 w-full text-white serviceTag h-[70px]'>
 							Hair Stylist
 						</div>
