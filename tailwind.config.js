@@ -7,9 +7,11 @@ module.exports = {
         primary: '#7E00C4',
         'font-01': '#1D2939',
         'font-02': 'rgba(33, 6, 57, 0.6)',
+        'font-03': '#101828',
         cyan: 'rgba(0, 204, 205, 0.2)',
         white: '#fff',
         black: '#000',
+        grey: '#667085'
       },
       screens: {
         xs: { max: '425px' },

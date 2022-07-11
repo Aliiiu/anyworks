@@ -3,7 +3,6 @@ import Head from 'next/head';
 import ServiceCard from '../components/services/ServiceCard';
 import Header from '../components/UI/Header';
 import Howitworks from '../components/section/Howitworks';
-import Image from 'next/image';
 
 
 const Services: NextPage = () => {
@@ -50,7 +49,7 @@ const Services: NextPage = () => {
             <main className=' pt-[80px]'>
                 <div className=" py-[30px] services-intro">
                     <div className="container service-intro-content text-center w-[75%] md:w-full mx-[auto]  ">
-                        <h2 className="text-[#7e00c4] font-semibold text-lg">Services</h2>
+                        <h2 className="text-primary font-semibold text-lg">Services</h2>
                         <p className='text-font-01 py-2 font-bold'>Lorem ipsum dolor sit amet consectetur</p>
                         <p className="text-xs text-font-02">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit at donec mi diam leo aliquam non sagittis. Sapien auctor diam

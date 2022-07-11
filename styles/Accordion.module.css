@@ -1,0 +1,20 @@
+.accordion:last-child {
+  border-bottom: none;
+}
+
+.accordionTitle p {
+  font-weight: bold;
+  cursor: pointer;
+  width: calc(100% - 20px);
+}
+
+.accordionContent {
+  max-height: 0;
+  transition: margin-top 0.2s ease-in-out, max-height 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.accordionContentIsActive {
+  max-height: 700px;
+  margin-top: 10px;
+}
