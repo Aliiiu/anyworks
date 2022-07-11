@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Header from '../components/UI/Header'
 import Accordion from '../components/faq/Accordion'
 import Button from '../components/UI/Button'
+import Image from 'next/Image'
 
 const Faq: NextPage = () => {
   const accordionData = [
@@ -42,25 +43,33 @@ const Faq: NextPage = () => {
       <Header />
       <main className=" pt-[80px]">
         <div className=" accordions py-[30px]">
-          <div className="container">
-            <div className=" w-[70%] m-[auto] md:w-[100%]">
+          <div className="container relative lg:px-[112px] px-[33px]">
+            <div className="absolute left-0 top-[70px] z-[-1]">
+              <Image src="/images/circle.png" alt="circle" width={110} height={180} />
+            </div>
+            <div className="absolute bottom-[20px] right-0 z-[-1]">
+              <Image src="/images/circle2.png" alt="circle" width={110} height={180} />
+            </div>
+            <div className=" md:w-[80%] m-[auto] w-[100%]">
               <div className="heading text-center">
                 <h2 className="text-font-03 font-semibold text-xl">Frequently asked questions</h2>
                 <p className="text-grey mt-[20px] text-base">
                   Everything you need to know about the product and billing.
                 </p>
               </div>
-              <div className="accordion my-[40px]">
-                {accordionData.map(({ title, content }) => (
-                  <Accordion key={title} title={title} content={content} />
-                ))}
+              <div className="accordion  my-[40px]">
+                <>
+                  {accordionData.map(({ title, content }) => (
+                    <Accordion key={title} title={title} content={content} />
+                  ))}
+                </>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="container">
-          <div className="still text-center bg-cyan rounded-lg my-[30px] py-[30px] px-[15px]">
+        <div className="container lg:px-[112px] px-[33px]">
+          <div className="still text-center bg-cyan rounded-lg mt-[30px] mb-[100px] py-[30px] px-[15px]">
             <h2 className="text-font-01 font-bold text-lg">Still have questions?</h2>
             <p className="text-grey my-2 text-sm">
               Can’t find the answer you’re looking for? Please chat to our friendly team.

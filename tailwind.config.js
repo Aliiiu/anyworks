@@ -16,14 +16,10 @@ module.exports = {
 				black: '#000',
 				grey: '#667085',
 			},
-			// screens: {
-			//   xs: { max: '425px' },
-			//   sm: { max: '600px' },
-			//   md: { max: '765px' },
-			//   mlg: { max: '855px' },
-			//   lg: { max: '1024px' },
-			//   xl: { max: '1024px' },
-			// },
+			screens: {
+			  xs: '425px' ,
+			  mlg: '855px' ,
+      },
 		},
 	},
 	plugins: [],
