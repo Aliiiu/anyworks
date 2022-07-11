@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const Privacypolicy = () => {
+const Termsofuse = () => {
 	return (
 		<div className='container relative'>
 			<div className='absolute left-0 top-[100px]'>
@@ -20,7 +20,7 @@ const Privacypolicy = () => {
 				/>
 			</div>
 			<div className='mt-[100px] mb-[65px] px-[234px]'>
-				<h2 className='mb-[48px]'>Privacy Policy</h2>
+				<h2 className='mb-[48px]'>Terms of Use</h2>
 				<p className='mb-[25px]'>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. A purus ac,
 					turpis quis eget. Convallis at praesent bibendum sit diam consequat
@@ -61,4 +61,4 @@ const Privacypolicy = () => {
 	);
 };
 
-export default Privacypolicy;
+export default Termsofuse;

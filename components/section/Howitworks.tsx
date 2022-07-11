@@ -34,10 +34,10 @@ const steps: stepsType[] = [
 const Howitworks = () => {
 	return (
 		<div>
-			<h2 className='uppercase text-[#7E00C4] font-bold text-center text-[36px]'>
+			<h3 className='uppercase text-[#7E00C4] font-bold text-center'>
 				How it works
-			</h2>
-			<div className=' container pl-[230px]'>
+			</h3>
+			<div className=' container px-[33px]  xl:pl-[230px]'>
 				<StepsForUsers />
 			</div>
 			<StepsForArtisians />

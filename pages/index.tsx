@@ -22,14 +22,14 @@ const Home: NextPage = () => {
 			</Head>
 			<main className='min-h-screen'>
 				<HomepageHero />
-				<div className='mt-[50px] mb-[200px] '>
+				<div className='mt-[50px] mb-[90px] lg:mb-[200px] '>
 					<ServiceSection />
 				</div>
-				<div className='mb-[120px]'>
+				<div className='mb-[80px] lg:mb-[120px]'>
 					<LearnMore />
 				</div>
 				<Howitworks />
-				<div className='container px-[169px] pt-[120px] pb-[200px]'>
+				<div className='container px-[33px] lg:px-[169px] py-[36px] lg:pt-[120px] lg:pb-[200px]'>
 					<Whyanyworks />
 				</div>
 			</main>

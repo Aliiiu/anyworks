@@ -4,12 +4,12 @@ import Button from '../UI/Button';
 
 const LearnMore = () => {
 	return (
-		<div className=' container px-[112px]'>
-			<div className='flex justify-between'>
-				<h1 className='leading-[60px]'>
+		<div className='container px-[33px] lg:px-[112px]'>
+			<div className='flex flex-col justify-between md:flex-row'>
+				<h2 className='text-[#1D2939] leading-[35px] text-left mb-[20px] md:mb-0'>
 					Lorem ipsum dolor sit <br /> amet, consectetur <br /> adipiscing elit.
-				</h1>
-				<div className='w-[37%]'>
+				</h2>
+				<div className='lg:w-[37%] '>
 					<p className='mb-[20px] text-[#667085;]'>
 						Untitled is a technology company that builds <br /> infrastructure
 						for your startup, so you don’t <br /> have to. Businesses of every

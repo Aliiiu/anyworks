@@ -3,7 +3,7 @@ import { BsArrowUpRight } from 'react-icons/bs';
 
 const ServiceSection = () => {
 	return (
-		<div className='container px-[112px]'>
+		<div className='container px-[33px] lg:px-[112px]'>
 			<h1 className='text-[#00CCCD] leading-[55px]'>
 				One Platform <br /> Many{' '}
 				<span className='text-[#7E00C4]'>Services</span>
@@ -13,37 +13,45 @@ const ServiceSection = () => {
 				scelerisque <br /> imperdiet convallis nec imperdiet convallis nec
 				convallis nec.
 			</p>
-			<div className='bg-[#00CCCD] grid grid-cols-4 gap-x-[20px] rounded-[30px] p-[15px] w-full'>
-				<div className='serviceStyle overflow-hidden'>
-					<div className='relative w-[280px] h-[240px]'>
+			<div className='bg-[#00CCCD] grid grid-rows-4 gap-y-[20px] md:grid-cols-2 md:grid-rows-1 lg:grid-cols-4 md:gap-x-[20px] rounded-[30px] p-[15px] w-full'>
+				<div className='w-full overflow-hidden serviceStyle'>
+					<div className='relative'>
 						<Image
 							src={'/images/service-1.png'}
 							alt='delivery service'
-							layout='fill'
+							layout='fixed'
+							width={'500px'}
+							height='380px'
+							objectFit='cover'
 						/>
 						<div className='flex justify-center items-center absolute bottom-0 w-full text-white serviceTag h-[70px]'>
 							Quick Errands
 						</div>
 					</div>
 				</div>
-				<div className='serviceStyle overflow-hidden'>
-					<div className='relative w-[280px] h-[240px]'>
+				<div className='w-full overflow-hidden serviceStyle'>
+					<div className='relative'>
 						<Image
 							src={'/images/service-2.png'}
 							alt='delivery service'
-							layout='fill'
+							layout='fixed'
+							width={'500px'}
+							height='380px'
+							objectFit='cover'
 						/>
 						<div className='flex justify-center items-center absolute bottom-0 w-full text-white serviceTag h-[70px]'>
 							Plumber
 						</div>
 					</div>
 				</div>
-				<div className='serviceStyle overflow-hidden'>
-					<div className='relative w-[280px] h-[240px]'>
+				<div className='overflow-hidden serviceStyle'>
+					<div className='relative'>
 						<Image
 							src={'/images/service-3.png'}
 							alt='delivery service'
-							layout='fill'
+							layout='fixed'
+							width={'500px'}
+							height='380px'
 						/>
 						<div className='flex justify-center items-center absolute bottom-0 w-full text-white serviceTag h-[70px]'>
 							Hair Stylist
