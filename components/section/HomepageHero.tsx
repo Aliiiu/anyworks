@@ -4,20 +4,24 @@ import Image from 'next/image';
 
 const HomepageHero = () => {
 	return (
-		<div className='flex justify-between container '>
-			<div className='mt-[129px] w-[45%]'>
+		<div className='flex flex-col md:flex-row justify-between container px-[33px] lg:px-[112px]'>
+			<div className='md:mt-[129px] mt-[71px] md:w-[45%]'>
 				<h1 className='underline'>
 					Ut pellentesque <br /> enim non nisl, <br /> tortor pretium.
 				</h1>
-				<p className='text-[#1D2939] mt-[32px]'>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Velit
-					at donec mi diam leo aliquam non sagittis. Sapien <br /> auctor diam
-					elementum faucibus condimentum quam <br /> eget. Odio a, elementum
-					laoreet sed.
+				<p className='text-[#1D2939] mt-[24px] md:mt-[32px]'>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.{' '}
+					<br className='hidden md:block' /> Velit at donec mi diam leo aliquam
+					non sagittis. Sapien <br className='hidden md:block' /> auctor diam
+					elementum faucibus condimentum quam <br className='hidden md:block' />{' '}
+					eget. Odio a, elementum laoreet sed.
 				</p>
-				<Button styles='bg-[#7E00C4] mt-[32px]' content='join the waitlist' />
+				<Button
+					styles='bg-[#7E00C4] mt-[24px] md:mt-[32px]'
+					content='join the waitlist'
+				/>
 			</div>
-			<div className='relative mt-[40px] w-[575px] h-[700px]'>
+			<div className='relative mt-[58px] w-[276px] h-[326px] md:w-[376px] md:h-[500px] md:mt-[79px] lg:mt-[40px] lg:w-[575px] lg:h-[700px]'>
 				<Image
 					src={'/images/hero-new.png'}
 					alt='anyworks demo'
