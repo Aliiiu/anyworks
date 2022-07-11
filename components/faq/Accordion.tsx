@@ -19,8 +19,8 @@ export const Accordion = ({ title, content }: Props) => {
           <p className='cursor-pointer text-sm font-bold text-font-03 w-[calc(100% - 20px)'>{title}</p>
           {
             isActive ?
-              <Image alt="call" src="/svgs/minus-circle.svg" width={18} height={18} />
-              : <Image alt="call" src="/svgs/plus-circle.svg" width={18} height={18} />
+              <Image alt="minus" className='cursor-pointer' src="/svgs/minus-circle.svg" width={18} height={18} />
+              : <Image alt="plus" className='cursor-pointer' src="/svgs/plus-circle.svg" width={18} height={18} />
           }
         </div>
       </div>

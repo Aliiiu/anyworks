@@ -1,0 +1,11 @@
+.menuBar {
+  display: none;
+  width: 100%;
+  border-top: 1px solid #EAECF0;
+}
+
+@media only screen and (max-width: 855px) {
+  .menuBarIsOpen {
+    display: block;
+  }
+}

@@ -7,32 +7,28 @@ import Button from '../components/UI/Button'
 const Faq: NextPage = () => {
   const accordionData = [
     {
-      title: 'What does Yawo Mean?',
-      content: `Yawo is a Yoruba word meaning “to borrow money”. It’s a platform which provides capital for small businesses.`,
+      title: 'Is there a free trial available?',
+      content: `Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.`,
     },
     {
-      title: 'Who can borrow from Yawo?',
-      content: `Traders and small businesses.`,
+      title: 'Can I change my plan later?',
+      content: `No`,
     },
     {
-      title: 'How much I can get from Yawo?',
-      content: `All customers get an initial loan of N25,000 and this can be gradually increased after regular repayments have been made.`,
+      title: 'What is your cancellation policy?',
+      content: `Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.`,
     },
     {
-      title: 'How do I repay my loan? ',
-      content: `Repayment is made daily to Yawo partner agents until the end of the Loan period.`,
+      title: 'Can other info be added to an invoice?',
+      content: `Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.`,
     },
     {
-      title: 'How many times can I get a loan from Yawo?',
-      content: `As many times as your loan is approved, provided earlier loans have been fully repaid.`,
+      title: 'How does billing work?',
+      content: `As many times as your`,
     },
     {
-      title: 'How do I find Yawo Partner Agents?',
-      content: `Please contact us via phone in order to be connected with a Yawo Partner Agent.`,
-    },
-    {
-      title: 'What are other advantages of Yawo?',
-      content: `Yawo helps you save 5% of your daily repayment. This will be paid to you at the end of the loan period. Terms and conditions apply.`,
+      title: 'How do I change my account email?',
+      content: `Please contact us via phone in order to be connected`,
     },
   ]
 
