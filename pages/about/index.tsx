@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Joinwaitlist from '../components/section/Joinwaitlist'
-import LoveToHear from '../components/contact/LoveToHear'
+import Joinwaitlist from '../../components/section/Joinwaitlist'
+import LoveToHear from '../../components/contact/LoveToHear'
 import Image from 'next/image'
 
 const About: NextPage = () => {

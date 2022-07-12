@@ -1,8 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Accordion from '../components/faq/Accordion'
-import Button from '../components/UI/Button'
+import Accordion from '../../components/faq/Accordion'
+import Button from '../../components/UI/Button'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Faq: NextPage = () => {
   const accordionData = [
@@ -72,7 +73,9 @@ const Faq: NextPage = () => {
             <p className="text-grey my-2 text-sm">
               Can’t find the answer you’re looking for? Please chat to our friendly team.
             </p>
+            <Link href='/contact-us' passHref>
             <Button styles="bg-primary " content="Get in touch" />
+            </Link>
           </div>
         </div>
       </main>
