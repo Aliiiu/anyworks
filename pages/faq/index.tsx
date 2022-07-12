@@ -73,8 +73,10 @@ const Faq: NextPage = () => {
             <p className="text-grey my-2 text-sm">
               Can’t find the answer you’re looking for? Please chat to our friendly team.
             </p>
-            <Link href='/contact-us' passHref>
-            <Button styles="bg-primary " content="Get in touch" />
+            <Link href="/contact-us">
+              <a>
+                <Button styles="bg-primary " content="Get in touch" />
+              </a>
             </Link>
           </div>
         </div>

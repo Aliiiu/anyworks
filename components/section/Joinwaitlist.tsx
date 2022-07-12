@@ -23,7 +23,7 @@ const Joinwaitlist = () => {
 						/>
 						<Button
 							styles='bg-[#210639] mt-[24px] w-full max-w-[410px] text-[16px] md:text-[20px] xl:w-[35%] md:mt-[0px]'
-							content='join the waitlist'
+							content='Join the Waitlist'
 						/>
 					</div>
 				</div>

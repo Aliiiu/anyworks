@@ -18,7 +18,7 @@ const HomepageHero = () => {
 				</p>
 				<Button
 					styles='bg-[#7E00C4] mt-[24px] md:mt-[32px]'
-					content='join the waitlist'
+					content='Join the Waitlist'
 				/>
 			</div>
 			<div className='relative mt-[58px] w-[276px] h-[326px] md:w-[376px] md:h-[500px] md:mt-[79px] lg:mt-[100px] lg:w-[575px] lg:h-[700px]'>
