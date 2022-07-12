@@ -95,7 +95,9 @@ const Header: FC<{}> = () => {
                   { 'text-primary': router.pathname == '/about' }
                 )}
               >
-                <Link href="/services">Services</Link>
+                <Link href="/services">
+                  <a className="flex">Services</a>
+                </Link>
               </li>
               <li
                 className={clsx(
@@ -103,7 +105,9 @@ const Header: FC<{}> = () => {
                   { 'text-primary': router.pathname == '/about' }
                 )}
               >
-                <Link href="/about">About Us</Link>
+                <Link href="/about">
+                  <a className="flex">About Us</a>
+                </Link>
               </li>
               <li
                 className={clsx(
@@ -111,7 +115,9 @@ const Header: FC<{}> = () => {
                   { 'text-primary': router.pathname == '/contact-us' }
                 )}
               >
-                <Link href="/contact-us">Contact Us</Link>
+                <Link href="/contact-us">
+                  <a className="flex">Contact Us</a>
+                </Link>
               </li>
               <li
                 className={clsx(
@@ -119,7 +125,9 @@ const Header: FC<{}> = () => {
                   { 'text-primary': router.pathname == '/faq' }
                 )}
               >
-                <Link href="/faq">FAQ</Link>
+                <Link href="/faq">
+                  <a className="flex">FAQ</a>
+                </Link>
               </li>
             </ul>
             <Button styles="bg-primary  mt-[20px] xs:w-[auto] w-full" content="Join the Waitlist" />
