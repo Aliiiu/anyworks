@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Accordion from '../components/faq/Accordion'
 import Button from '../components/UI/Button'
-import Image from 'next/Image'
+import Image from 'next/image'
 
 const Faq: NextPage = () => {
   const accordionData = [

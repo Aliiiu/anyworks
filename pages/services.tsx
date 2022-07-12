@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import ServiceCard from '../components/services/ServiceCard'
 import Howitworks from '../components/section/Howitworks'
-import Image from 'next/Image'
+import Image from 'next/image'
 import Joinwaitlist from '../components/section/Joinwaitlist'
 
 const Services: NextPage = () => {
