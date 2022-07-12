@@ -5,7 +5,7 @@ import Image from 'next/image';
 const HomepageHero = () => {
 	return (
 		<div className='flex flex-col md:flex-row justify-between container px-[33px] lg:px-[112px]'>
-			<div className='md:mt-[129px] mt-[71px] md:w-[45%]'>
+			<div className='md:mt-[179px] mt-[141px] md:w-[46%]'>
 				<h1 className='underline'>
 					Ut pellentesque <br /> enim non nisl, <br /> tortor pretium.
 				</h1>
@@ -21,7 +21,7 @@ const HomepageHero = () => {
 					content='join the waitlist'
 				/>
 			</div>
-			<div className='relative mt-[58px] w-[276px] h-[326px] md:w-[376px] md:h-[500px] md:mt-[79px] lg:mt-[40px] lg:w-[575px] lg:h-[700px]'>
+			<div className='relative mt-[58px] w-[276px] h-[326px] md:w-[376px] md:h-[500px] md:mt-[79px] lg:mt-[100px] lg:w-[575px] lg:h-[700px]'>
 				<Image
 					src={'/images/hero-new.png'}
 					alt='anyworks demo'

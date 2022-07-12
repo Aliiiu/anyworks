@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Contactus = () => {
 	return (
 		<div className='container relative'>
-			<div className='absolute left-0 top-[100px]'>
+			<div className='absolute hidden lg:block left-0 top-[100px]'>
 				<Image
 					src='/images/circle.png'
 					alt='circle point'
@@ -11,7 +11,7 @@ const Contactus = () => {
 					height={'193px'}
 				/>
 			</div>
-			<div className='absolute bottom-[300px] right-0'>
+			<div className='absolute bottom-[300px] hidden lg:block right-0'>
 				<Image
 					src='/images/circle2.png'
 					alt='circle point'
@@ -19,13 +19,15 @@ const Contactus = () => {
 					height={'193px'}
 				/>
 			</div>
-			<div className='mt-[100px] mb-[213px] px-[234px]'>
-				<h2 className='mb-[12px]'>Contact Us</h2>
-				<h2 className='mb-[24px] text-[#1D2939]'>We’d love to hear from you</h2>
+			<div className='mt-[130px] xl:mt-[150px] mb-[52px] xl:mb-[213px] px-[33px] xl:px-[234px]'>
+				<h2 className='mb-[12px] text-center'>Contact Us</h2>
+				<h2 className='mb-[24px] text-center text-[#1D2939]'>
+					We’d love to hear from you
+				</h2>
 				<p className='mb-[60px] text-center text-[16px] text-[#98A2B3]'>
 					Our friendly team is always here to chat.
 				</p>
-				<div className='flex justify-between w-full'>
+				<div className='flex flex-col gap-y-[20px] lg:flex-row justify-between w-full'>
 					<div className='text-center'>
 						<Image
 							src={'/images/mail-icon.png'}
@@ -46,7 +48,7 @@ const Contactus = () => {
 					</div>
 					<div className='text-center'>
 						<Image
-							src={'/images/mail-icon.png'}
+							src={'/images/contact-icon.png'}
 							alt='mail icon'
 							width={'48px'}
 							height='48px'
@@ -61,7 +63,7 @@ const Contactus = () => {
 					</div>
 					<div className='text-center'>
 						<Image
-							src={'/images/mail-icon.png'}
+							src={'/images/phone-icon.png'}
 							alt='mail icon'
 							width={'48px'}
 							height='48px'
@@ -73,7 +75,7 @@ const Contactus = () => {
 						<p className='text-[#7E00C4] text-[16px]'>+1 (555) 000-0000</p>
 					</div>
 				</div>
-				<div className='text-center w-[520px] p-[20px] mt-[120px] mx-auto'>
+				<div className='text-center lg:w-[520px] p-[20px] mt-[120px] mx-auto'>
 					<h3 className='text-[24px] text-[#101828] font-semibold'>
 						Get in touch
 					</h3>
@@ -102,7 +104,6 @@ const Contactus = () => {
 							<textarea
 								name='message'
 								rows={4}
-								cols={50}
 								className='w-full inputBorder'
 							></textarea>
 						</div>

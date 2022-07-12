@@ -6,13 +6,17 @@ const Footer = () => {
 		<div>
 			<div className='md:pt-[66px] pt-[55px] px-[32px] pb-[63px] md:pb-[40px] lg:px-[114px] bg-[#210639] flex flex-col md:flex-row justify-between'>
 				<div className='flex flex-col items-start gap-y-[23px]'>
-					<Image
-						src={'/images/logo-white.png'}
-						alt='white logo'
-						width={'158px'}
-						height='52px'
-						objectFit='contain'
-					/>
+					<Link href={'/'}>
+						<a>
+							<Image
+								src={'/images/logo-white.png'}
+								alt='white logo'
+								width={'158px'}
+								height='52px'
+								objectFit='contain'
+							/>
+						</a>
+					</Link>
 					<p className='text-white'>
 						Lorem ipsum dolor sit amet, consectetur{' '}
 						<br className='hidden md:block' /> adipiscing elit. Cursus in
@@ -53,24 +57,30 @@ const Footer = () => {
 						© 2022 AnyWorks. All rights reserved.
 					</p>
 					<div className='flex justify-between mb-[20px] md:mb-0 w-[50%] md:w-[20%] lg:w-[18%] xl:w-[13%]'>
-						<Image
-							src={'/images/twitter-icon.png'}
-							alt='twitter icon'
-							width={'32px'}
-							height='32px'
-						/>
-						<Image
-							src={'/images/instagram-icon.png'}
-							alt='twitter icon'
-							width={'32px'}
-							height='32px'
-						/>
-						<Image
-							src={'/images/facebook-icon.png'}
-							alt='twitter icon'
-							width={'32px'}
-							height='32px'
-						/>
+						<a href=''>
+							<Image
+								src={'/images/twitter-icon.png'}
+								alt='twitter icon'
+								width={'32px'}
+								height='32px'
+							/>
+						</a>
+						<a href=''>
+							<Image
+								src={'/images/instagram-icon.png'}
+								alt='twitter icon'
+								width={'32px'}
+								height='32px'
+							/>
+						</a>
+						<a href=''>
+							<Image
+								src={'/images/facebook-icon.png'}
+								alt='twitter icon'
+								width={'32px'}
+								height='32px'
+							/>
+						</a>
 					</div>
 				</div>
 			</div>

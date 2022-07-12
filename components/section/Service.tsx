@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { BsArrowUpRight } from 'react-icons/bs';
 
 const ServiceSection = () => {
@@ -14,54 +15,39 @@ const ServiceSection = () => {
 			</p>
 			<div className='bg-[#00CCCD] grid grid-rows-4 gap-y-[20px] md:grid-cols-2 md:grid-rows-1 lg:grid-cols-4 md:gap-x-[20px] rounded-[30px] p-[15px] w-full'>
 				<div className='w-full relative overflow-hidden serviceOne h-[300px] bg-center serviceStyle'>
-					<div className=''>
-						{/* <Image
-							src={'/images/service-1.png'}
-							alt='delivery service'
-							layout='fixed'
-							width={'500px'}
-							height='380px'
-							objectFit='cover'
-						/> */}
-						<div className='flex justify-center items-center absolute bottom-0 w-full text-white serviceTag h-[70px]'>
-							Quick Errands
-						</div>
-					</div>
+					<Link href={'/services'}>
+						<a>
+							<div className='flex justify-center items-center absolute bottom-0 w-full text-white serviceTag h-[70px]'>
+								Quick Errands
+							</div>
+						</a>
+					</Link>
 				</div>
 				<div className='w-full relative overflow-hidden serviceTwo h-[300px] bg-center serviceStyle'>
-					<div className=''>
-						{/* <Image
-							src={'/images/service-2.png'}
-							alt='delivery service'
-							layout='fixed'
-							width={'500px'}
-							height='380px'
-							objectFit='cover'
-						/> */}
-						<div className='flex justify-center items-center absolute bottom-0 w-full text-white serviceTag h-[70px]'>
-							Plumber
-						</div>
-					</div>
+					<Link href={'/services'}>
+						<a>
+							<div className='flex justify-center items-center absolute bottom-0 w-full text-white serviceTag h-[70px]'>
+								Plumber
+							</div>
+						</a>
+					</Link>
 				</div>
 				<div className='overflow-hidden relative serviceThree h-[300px] bg-center serviceStyle'>
-					<div className=''>
-						{/* <Image
-							src={'/images/service-3.png'}
-							alt='delivery service'
-							layout='fixed'
-							width={'500px'}
-							height='380px'
-						/> */}
-						<div className='flex justify-center items-center absolute bottom-0 w-full text-white serviceTag h-[70px]'>
-							Hair Stylist
-						</div>
-					</div>
+					<Link href={'/services'}>
+						<a>
+							<div className='flex justify-center items-center absolute bottom-0 w-full text-white serviceTag h-[70px]'>
+								Hair Stylist
+							</div>
+						</a>
+					</Link>
 				</div>
 				<div className='bg-primary w-full h-full rounded-[20px] flex justify-center items-center'>
 					<div className='flex flex-col items-center gap-y-[19px]'>
-						<a className='styledAnchor flex justify-center items-center w-[63px] h-[63px] rounded-[100%]'>
-							<BsArrowUpRight className='text-[#210639] text-[16px]' />
-						</a>
+						<Link href='/services'>
+							<a className='styledAnchor flex justify-center items-center w-[63px] h-[63px] rounded-[100%]'>
+								<BsArrowUpRight className='text-[#210639] text-[16px]' />
+							</a>
+						</Link>
 						<h4 className='text-white'>Explore All</h4>
 					</div>
 				</div>

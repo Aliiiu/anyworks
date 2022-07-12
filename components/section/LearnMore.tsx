@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { BsArrowUpRight } from 'react-icons/bs';
 import Button from '../UI/Button';
@@ -19,10 +20,12 @@ const LearnMore = () => {
 					<Button
 						styles='bg-[#7E00C4]'
 						content={
-							<div className='flex items-center gap-x-[20px]'>
-								Learn More
-								<BsArrowUpRight />
-							</div>
+							<Link href={'/about'}>
+								<a className='flex items-center gap-x-[20px]'>
+									Learn More
+									<BsArrowUpRight />
+								</a>
+							</Link>
 						}
 					/>
 				</div>

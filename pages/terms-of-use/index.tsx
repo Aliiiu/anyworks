@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Termsofuse = () => {
 	return (
 		<div className='container relative'>
-			<div className='absolute left-0 top-[100px]'>
+			<div className='absolute hidden lg:block left-0 top-[100px]'>
 				<Image
 					src='/images/circle.png'
 					alt='circle point'
@@ -11,7 +11,7 @@ const Termsofuse = () => {
 					height={'193px'}
 				/>
 			</div>
-			<div className='absolute right-0 bottom-0'>
+			<div className='absolute hidden lg:block right-0 bottom-0'>
 				<Image
 					src='/images/circle2.png'
 					alt='circle point'
@@ -19,9 +19,11 @@ const Termsofuse = () => {
 					height={'193px'}
 				/>
 			</div>
-			<div className='mt-[100px] mb-[65px] px-[234px]'>
-				<h2 className='mb-[48px]'>Terms of Use</h2>
-				<p className='mb-[25px]'>
+			<div className='mt-[130px] xl:mt-[150px] mb-[65px] px-[33px] lg:px-[234px]'>
+				<h2 className='mb-[24px] text-primary text-center lg:mb-[48px]'>
+					Terms of Use
+				</h2>
+				<p className='mb-[15px] xl:mb-[25px]'>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. A purus ac,
 					turpis quis eget. Convallis at praesent bibendum sit diam consequat
 					pellentesque. Mauris, elementum neque ut pretium massa vitae enim.
@@ -32,7 +34,7 @@ const Termsofuse = () => {
 					non id libero libero eget interdum. Viverra tincidunt tincidunt
 					integer mi sed. A tortor mi aliquet urna. <br />
 				</p>
-				<p className='mb-[25px]'>
+				<p className='mb-[15px] xl:mb-[25px]'>
 					{' '}
 					Nec enim quis arcu accumsan elit ut erat netus at. Congue id elit
 					congue risus nisi amet malesuada. Amet ornare lectus pellentesque
