@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import JoinWaitList from '../components/section/Joinwaitlist'
+import Joinwaitlist from '../components/section/Joinwaitlist'
 import LoveToHear from '../components/contact/LoveToHear'
 import Image from 'next/image'
 
@@ -54,7 +54,12 @@ const About: NextPage = () => {
         <div className="bg-white py-[80px] contact">
           <LoveToHear />
         </div>
-        <JoinWaitList />
+        <div className='mb-[140px]'>
+        <div className="container lg:px-[112px] px-[33px]">
+        <Joinwaitlist />
+        </div>
+        </div>
+      
       </main>
     </div>
   )

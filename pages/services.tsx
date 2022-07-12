@@ -75,7 +75,11 @@ const Services: NextPage = () => {
           </div>
         </div>
         <Howitworks />
+        <div className='mb-[140px]'>
+        <div className="container lg:px-[112px] px-[33px]">
         <Joinwaitlist />
+        </div>
+        </div>
       </main>
     </div>
   )
