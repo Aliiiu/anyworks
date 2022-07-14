@@ -54,10 +54,8 @@ const Services: NextPage = () => {
 				</div>
 				<div className='services bg-cyan mb-[116px]'>
 					<div
-						className='container services-content py-[90px] relative grid gap-[40px] lg:px-[112px] px-[33px]'
-						style={{
-							gridTemplateColumns: 'repeat(auto-fill, minmax(214px, 1fr))',
-						}}
+						className='container services-content py-[90px] relative grid gap-[40px] mlg:grid-cols-3 msm:grid-cols-2 lg:px-[112px] px-[33px]'
+						
 					>
 						<>
 							<div className='absolute left-0 top-[40px] z-[-1]'>
