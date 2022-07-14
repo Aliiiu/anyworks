@@ -43,7 +43,7 @@ const Faq: NextPage = () => {
 			<main className='xl:mt-[144px] mt-[112px]'>
 				<div className=' accordions py-[30px]'>
 					<div className='container relative lg:px-[112px] px-[33px]'>
-						<div className='absolute left-0 top-[70px] z-[-1]'>
+						<div className='absolute hidden lg:block left-0 top-[70px] z-[-1]'>
 							<Image
 								src='/images/circle.png'
 								alt='circle'
@@ -51,7 +51,7 @@ const Faq: NextPage = () => {
 								height={180}
 							/>
 						</div>
-						<div className='absolute bottom-[20px] right-0 z-[-1]'>
+						<div className='absolute hidden lg:block bottom-[20px] right-0 z-[-1]'>
 							<Image
 								src='/images/circle2.png'
 								alt='circle'
