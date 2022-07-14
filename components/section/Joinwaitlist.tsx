@@ -25,7 +25,7 @@ const Joinwaitlist = () => {
 						/>
 					</div>
 				</div>
-				<div className='absolute right-[-20px] w-[150px] hidden xl:block  h-[150px] top-[-240px]'>
+				<div className='absolute right-[-20px] w-[150px] hidden xl:block  h-[150px] top-[-200px]'>
 					<div className='absolute right-6'>
 						<Image
 							src={'/images/sketch.png'}
