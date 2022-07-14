@@ -1,11 +1,12 @@
 import React from 'react';
 import Button from '../UI/Button';
 import Image from 'next/image';
+// import { Link } from 'react-scroll';
 
 const HomepageHero = () => {
 	return (
 		<div className='flex flex-col md:flex-row justify-between container px-[33px] lg:px-[112px]'>
-			<div className='md:mt-[179px] mt-[141px] md:w-[46%]'>
+			<div className='lg:mt-[180px] mt-[145px] md:w-[46%]'>
 				<h1 className='underline'>
 					Ut pellentesque <br /> enim non nisl, <br /> tortor pretium.
 				</h1>
@@ -18,10 +19,14 @@ const HomepageHero = () => {
 				</p>
 				<Button
 					styles='bg-[#7E00C4] mt-[24px] md:mt-[32px]'
-					content='Join the Waitlist'
+					content={
+						<>
+							<a href='#waitlist'>Join the waitlist</a>
+						</>
+					}
 				/>
 			</div>
-			<div className='relative mt-[58px] w-[276px] h-[326px] md:w-[376px] md:h-[500px] md:mt-[79px] lg:mt-[100px] lg:w-[575px] lg:h-[700px]'>
+			<div className='relative mt-[58px] w-[276px] h-[326px] md:w-[376px] md:h-[500px] md:mt-[89px] lg:mt-[112px] lg:w-[575px] lg:h-[700px]'>
 				<Image
 					src={'/images/hero-new.png'}
 					alt='anyworks demo'
