@@ -34,7 +34,7 @@ const OverLayModal = ({ onClick }: Props) => {
 							className='cursor-pointer'
 						/>
 					</div>
-					<h3 className='text-[#333333] text-left font-semibold'>
+					<h3 className='text-[#333333] text-left font-semibold text-xl'>
 						Be the first to get notified
 					</h3>
 					<p className='text-[14px] text-[#1D2939]'>
@@ -43,25 +43,29 @@ const OverLayModal = ({ onClick }: Props) => {
 					</p>
 
 					<form action=''>
-						<div className='mb-[20px]'>
-							<label htmlFor='firstname'>Your name</label>
-							<input
-								type='text'
-								placeholder='first name'
-								className='w-full border-[#D0D5DD] placeholder-[#98A2B3] text-[16px] border py-[12px] bg-white modalInput px-[16px]'
-							/>
-						</div>
-						<div>
-							<label htmlFor='firstname'>Email</label>
-							<input
-								type='mail'
-								placeholder='you@mail.com'
-								className='w-full border-[#D0D5DD] placeholder-[#98A2B3] text-[16px] border py-[12px] bg-white modalInput px-[16px]'
-							/>
-						</div>
+					<div className='flex flex-col mb-[14px] items-start'>
+								<label className='mb-[10px] text-sm' htmlFor='firstName'>
+									Your name
+								</label>
+								<input
+									type='text'
+									placeholder='First Name'
+									className='px-[12px] placeholder:text-xs text-sm py-[8px] w-full inputBorder'
+								/>
+							</div>
+							<div className='flex flex-col mb-[14px] items-start'>
+								<label className='mb-[10px] text-sm' htmlFor='email'>
+									Email
+								</label>
+								<input
+									type='mail'
+									placeholder='you@mail.com'
+									className='px-[12px] placeholder:text-xs text-sm py-[8px] w-full inputBorder'
+								/>
+							</div>
 						<Button
-							content={'join the waitlist'}
-							styles='bg-[#7E00C4] mt-[24px] w-full'
+							content={'Join the Waitlist'}
+							styles='bg-primary w-full mt-[15px]'
 						/>
 					</form>
 				</div>

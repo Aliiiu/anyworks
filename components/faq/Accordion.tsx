@@ -16,7 +16,7 @@ export const Accordion = ({ title, content }: Props) => {
     <div className={`${styles.accordion} py-[20px] border-[#EAECF0] border-solid border-b`} >
       <div className={clsx('accordion-title', styles.accordionTitle, { isActive })} onClick={() => setIsActive(!isActive)}>
         <div className='flex justify-between align-center' >
-          <p className='cursor-pointer text-sm font-bold text-font-03 w-[calc(100% - 20px)'>{title}</p>
+          <p className='cursor-pointer text-sm font-bold text-font-03 w-[calc(100% - 20px)]'>{title}</p>
           {
             isActive ?
               <Image alt="minus" className='cursor-pointer' src="/svgs/minus-circle.svg" width={18} height={18} />

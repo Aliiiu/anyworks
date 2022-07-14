@@ -3,7 +3,7 @@ import Button from '../UI/Button';
 
 const Joinwaitlist = () => {
 	return (
-		<div id='waitlist' style={{ scrollMarginTop: '5rem' }}>
+		<div id='waitlist' className='xl:scroll-mt-[40rem] scroll-mt-[10rem]'>
 			<div className='xl:mt-[300px] mt-[60px] relative bg-[#7E00C4] flex rounded-[25px] xl:rounded-[48px] p-[40px] xl:p-[80px]'>
 				<div className='xl:w-[65%] w-full'>
 					<h1 className='text-white lg:mb-[20px] mb-[5px] text-[28px] lg:text-[60px] text-center xl:text-left '>
