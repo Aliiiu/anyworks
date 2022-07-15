@@ -1,7 +1,6 @@
 .menuBar {
   display: block;
   width: 100%;
-  border-top: 1px solid #EAECF0;
 }
 
 @media only screen and (min-width: 855px) {

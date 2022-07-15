@@ -29,8 +29,8 @@ const OverLayModal = ({ onClick }: Props) => {
 						<Image
 							src={'/svgs/closeModal.svg'}
 							alt=''
-							width={'43px'}
-							height='43px'
+							width={30}
+							height={30}
 							className='cursor-pointer'
 						/>
 					</div>

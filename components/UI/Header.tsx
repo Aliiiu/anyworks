@@ -128,17 +128,17 @@ const Header: FC<{}> = () => {
         {isOpen && (
           <div
             className={clsx(
-              'fixed top-[75px] h-screen bg-white py-[20px] px-[33px] sm:px-[30px] shadow-sm',
+              'fixed top-[75px] h-screen bg-white py-[60px] px-[33px] sm:px-[30px] shadow-sm',
               styles.menuBarIsOpen,
               {
                 [styles.menuBar]: isOpen,
               }
             )}
           >
-            <ul className="flex flex-col gap-y-[15px]">
+            <ul className="flex flex-col gap-y-[25px]">
               <li
                 className={clsx(
-                  'text-font-02 text-sm border-[#EAECF0] border-solid border-b hover:text-font-01',
+                  'text-font-02 text-sm hover:text-font-01',
                   { 'text-primary': router.pathname == '/about' }
                 )}
               >
@@ -148,7 +148,7 @@ const Header: FC<{}> = () => {
               </li>
               <li
                 className={clsx(
-                  'text-font-02 text-sm border-[#EAECF0] border-solid border-b hover:text-font-01',
+                  'text-font-02 text-sm hover:text-font-01',
                   { 'text-primary': router.pathname == '/about' }
                 )}
               >
@@ -158,7 +158,7 @@ const Header: FC<{}> = () => {
               </li>
               <li
                 className={clsx(
-                  'text-font-02 text-sm border-[#EAECF0] border-solid border-b hover:text-font-01',
+                  'text-font-02 text-sm hover:text-font-01',
                   { 'text-primary': router.pathname == '/contact-us' }
                 )}
               >
@@ -168,7 +168,7 @@ const Header: FC<{}> = () => {
               </li>
               <li
                 className={clsx(
-                  'text-font-02 text-sm border-[#EAECF0] border-solid border-b hover:text-font-01',
+                  'text-font-02 text-sm hover:text-font-01',
                   { 'text-primary': router.pathname == '/faq' }
                 )}
               >
@@ -177,11 +177,6 @@ const Header: FC<{}> = () => {
                 </Link>
               </li>
             </ul>
-
-            {/* <Button
-							styles='bg-primary  mt-[20px] xs:w-[auto] w-full'
-							content='Join the Waitlist'
-						/> */}
           </div>
         )}
       </div>
