@@ -15,7 +15,7 @@ const Privacypolicy = () => {
 						src='/images/circle.png'
 						alt='circle point'
 						width={'110px'}
-						height={'193px'}
+						height={'180px'}
 					/>
 				</div>
 				<div className='absolute hidden lg:block right-0 bottom-0'>
@@ -23,7 +23,7 @@ const Privacypolicy = () => {
 						src='/images/circle2.png'
 						alt='circle point'
 						width={'110px'}
-						height={'193px'}
+						height={'180px'}
 					/>
 				</div>
 				<div className='xl:mt-[144px] mt-[112px] mb-[65px] px-[33px] lg:px-[234px]'>
