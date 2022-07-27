@@ -9,23 +9,28 @@ interface stepsType {
 const steps: stepsType[] = [
 	{
 		icon: '/images/menu_1.png',
-		title: 'Download and Register',
-		content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in scelerisque Cursus in scelerisque`,
+		title: 'Register',
+		content: `Download the ANYWORKS ARTISAN app and register as an artisan. Submit all required information and documents for verification.`,
 	},
 	{
 		icon: '/images/menu_2.png',
-		title: 'Download and Register',
-		content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in scelerisque Cursus in scelerisque`,
+		title: 'Set Availability',
+		content: `Turn on your google location and set your availability to get connected to users around your vicinity. `,
 	},
 	{
 		icon: '/images/menu_3.png',
-		title: 'Download and Register',
-		content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in scelerisque Cursus in scelerisque`,
+		title: 'Negotiate Price',
+		content: `Use the chat or call section on Anyworks to connect with the user and reach an agreement.`,
 	},
 	{
 		icon: '/images/menu_4.png',
-		title: 'Download and Register',
-		content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in scelerisque Cursus in scelerisque`,
+		title: 'Complete the Service',
+		content: `Deliver the services required by the user.`,
+	},
+	{
+		icon: '/images/menu_1.png',
+		title: 'Receive Payment Through the Wallet',
+		content: `Get paid via the wallet feature on Anyworks.`,
 	},
 ];
 
@@ -66,7 +71,7 @@ const StepsForArtisians = () => {
 									/>
 								</div>
 								<div>
-									<h6 className='text-[#475467] text-[16px] font-semibold'>
+									<h6 className='text-[#475467] text-[16px] md:text-[20px] font-semibold'>
 										{item.title}
 									</h6>
 									<p className='text-[#475467] text-[14px] md:text-[16px] w-[85%]'>

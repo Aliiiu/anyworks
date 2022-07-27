@@ -37,10 +37,9 @@ const About: NextPage = () => {
 								We do things differently...
 							</p>
 							<p className='text-xs text-font-01'>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit
-								at donec mi diam leo aliquam non sagittis. Sapien auctor diam
-								elementum faucibus condimentum quam eget. Odio a, elementum
-								laoreet sed. Lorem ipsum dolor sit amet,
+								Anyworks is the bridging gap between users looking for help with
+								their domestic needs and experienced artisans who can deliver
+								quality services.
 							</p>
 
 							<div className='mission-vision mt-[50px] flex flex-col gap-y-4'>
@@ -49,10 +48,8 @@ const About: NextPage = () => {
 										Mission
 									</h2>
 									<p className='text-xs text-font-01'>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-										Velit at donec mi diam leo aliquam non sagittis. Sapien
-										auctor diam elementum faucibus condimentum quam eget. Odio
-										a, elementum laoreet sed. Lorem ipsum dolor sit amet,
+										Our mission is to reduce job anxiety by pairing individuals
+										with artisans to execute all your daily needs.
 									</p>
 								</div>
 								<div className='vision'>
@@ -60,10 +57,8 @@ const About: NextPage = () => {
 										Vision
 									</h2>
 									<p className='text-xs text-font-01'>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-										Velit at donec mi diam leo aliquam non sagittis. Sapien
-										auctor diam elementum faucibus condimentum quam eget. Odio
-										a, elementum laoreet sed. Lorem ipsum dolor sit amet,
+										Our vision is to position artisans all around the globe for
+										anyone who needs their services.
 									</p>
 								</div>
 							</div>

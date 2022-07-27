@@ -10,22 +10,27 @@ const steps: stepsType[] = [
 	{
 		icon: '/images/menu_1.png',
 		title: 'Download and Register',
-		content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in scelerisque Cursus in scelerisque`,
+		content: `Sign up by registering all required personal details.`,
 	},
 	{
 		icon: '/images/menu_2.png',
-		title: 'Download and Register',
-		content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in scelerisque Cursus in scelerisque`,
+		title: 'Book a Service',
+		content: `Request for needed service and get connected immediately with a qualified artisan close to your location.`,
 	},
 	{
 		icon: '/images/menu_3.png',
-		title: 'Download and Register',
-		content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in scelerisque Cursus in scelerisque`,
+		title: 'Negotiate price with artisans',
+		content: `Connect with the artisan using the chat or call feature on the app to discuss further the work and strike a bargain.`,
 	},
 	{
 		icon: '/images/menu_4.png',
-		title: 'Download and Register',
-		content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in scelerisque Cursus in scelerisque`,
+		title: 'Make payment',
+		content: `Once the artisan gets the job done, make payment through the wallet shown on your user page.`,
+	},
+	{
+		icon: '/images/menu_2.png',
+		title: 'Rate services',
+		content: `Give a review of how much you loved the service offered by the artisan. This can be seen by other users of Anyworks.`,
 	},
 ];
 
@@ -67,10 +72,10 @@ const StepsForUsers = () => {
 									/>
 								</div>
 								<div className=''>
-									<h6 className='text-[#475467] text-[16px] md:text-[20px] font-semibold'>
+									<h6 className='text-[#475467] text-[16px] md:text-[20px] capitalize font-semibold'>
 										{item.title}
 									</h6>
-									<p className='text-[#475467] text-[14px] md:text-[16px] xl:w-[70%]'>
+									<p className='text-[#475467] text-[14px] md:text-[16px] xl:w-[80%]'>
 										{item.content}
 									</p>
 								</div>

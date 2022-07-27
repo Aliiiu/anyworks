@@ -8,24 +8,26 @@ interface reasonType {
 }
 const reasons: reasonType[] = [
 	{
-		title: 'Lorem ipsum dolor',
-		content:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in scelerisque Cursus in scelerisque',
+		title: 'Get connected to trusted artisans',
+		content: `Anyworks connects you with trusted, competent, and reliable artisans to provide
+						services for your domestic needs. You can easily find reliable artisans around your location with just a button.`,
 	},
 	{
-		title: 'Lorem ipsum dolor',
-		content:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in scelerisque Cursus in scelerisque',
+		title: 'Secured payment method',
+		content: `Anyworks guarantees a safe and secured payment method. There is a wallet feature that carefully ensures
+							seamless transactions between users and artisans.`,
 	},
 	{
-		title: 'Lorem ipsum dolor',
+		title: '100% reliable artisans',
 		content:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in scelerisque Cursus in scelerisque',
+			'We have meticulously verified capable artisans and they have been orientated to deliver top-notch services.',
 	},
 	{
-		title: 'Lorem ipsum dolor',
-		content:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus in scelerisque Cursus in scelerisque',
+		title: 'Transparent work-flow.',
+		content: `Anyworks is equipped with a feature to help you stay connected to the needed artisans. 
+							You can easily monitor the movement of your favorite artisan from the point of requesting
+							a service to the point of delivering the service. We also give you all the support needed
+						 to enjoy premium and transparent services.`,
 	},
 	{
 		title: 'Lorem ipsum dolor',
@@ -43,9 +45,9 @@ const Whyanyworks = () => {
 	return (
 		<div>
 			<h3 className='text-[#7E00C4] font-bold text-center'>WHY ANYWORKS</h3>
-			<div className='grid grid-rows-6 lg:grid-cols-3 lg:grid-rows-2 lg:gap-x-[62px] lg:mt-[60px] mt-[38px] gap-y-[20px] lg:gap-y-[58px]'>
+			<div className='lg:grid lg:grid-cols-2 lg:grid-rows-3 lg:gap-x-[62px] lg:mt-[60px] mt-[38px] gap-y-[20px]'>
 				{reasons.map((item, idx) => (
-					<div key={idx} className='flex'>
+					<div key={idx} className='flex mb-[20px] md:mb-[30px]'>
 						<div className='mr-[5px] relative w-[32px] h-[32px] flex-shrink-0'>
 							<Image
 								src={'/images/star-icon.png'}

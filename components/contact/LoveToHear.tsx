@@ -32,10 +32,10 @@ const LoveToHear = () => {
 		<div className='container text-center lg:px-[112px] px-[33px]'>
 			<h2 className='text-lg text-primary font-bold '>Contact us</h2>
 			<h2 className='text-lg text-font-01 font-bold my-[10px]'>
-				We’d love to hear from you
+				We are always ready to hear from you
 			</h2>
 			<p className='text-base text-font-02'>
-				Our friendly team is always here to chat.
+				Our friendly team is here to start a conversation with you.
 			</p>
 			<div className='grid  gap-[62px] mt-[60px] mlg:grid-cols-3 grid-cols-1'>
 				{contacts.map((contact, index) => (
