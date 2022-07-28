@@ -7,7 +7,7 @@ const LearnMore = () => {
 	return (
 		<div className='container px-[33px] lg:px-[112px]'>
 			<div className='flex flex-col justify-between md:flex-row'>
-				<h2 className='text-[#1D2939] text-[48px] leading-[60px] text-left mb-[20px] md:mb-0'>
+				<h2 className='text-[#1D2939] text-2xl md:text-[48px] md:leading-[60px] text-left mb-[20px] md:mb-0'>
 					Do you need any service rendered? <br /> We have ARTISANS
 				</h2>
 				<div className='lg:w-[39%] '>

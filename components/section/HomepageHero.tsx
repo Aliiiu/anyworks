@@ -9,24 +9,23 @@ const HomepageHero = () => {
   useEffect(() => {
     const typed = new Typed(el.current || '', {
       strings: [
-        'Plumber',
-        'Electrician',
-        'Hair Stylist',
-        'Laundry',
-        'Auto Engineer',
-        'Cable Engineer/Installation Expert',
-        'Make-up Artists',
-        'Carpenter/Furniture Expert',
-        'Pharmacist/Medical Expert',
-        'Mobile Engineer',
-        'Food Vendors',
+        'Plumber.',
+        'Electrician.',
+        'Hair Stylist.',
+        'Laundry.',
+        'Auto Engineer.',
+        'Cable Engineer/Installation Expert.',
+        'Make-up Artists.',
+        'Carpenter/Furniture Expert.',
+        'Pharmacist/Medical Expert.',
+        'Mobile Engineer.',
+        'Food Vendors.',
       ],
       startDelay: 300,
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 100,
-	  fadeOut: true,
-	  loop: true
+      loop: true,
     })
 
     return () => {
@@ -37,8 +36,9 @@ const HomepageHero = () => {
   return (
     <div className="flex flex-col md:flex-row justify-between container px-[33px] lg:px-[112px]">
       <div className="lg:mt-[180px] mt-[145px] md:w-[48%]">
-        <h1 className="underline">
-          Get connected with <br /> <span ref={el}></span> <br /> Anywhere and Anytime.
+        <h1 className="underline leading-[45px]">
+          Get connected with <br /> <span className="break-all" ref={el}></span> <br /> Anywhere and
+          Anytime.
         </h1>
         <p className="text-[#1D2939] mt-[24px] md:mt-[32px]">
           Anyworks connects you with verified and professional <br className="hidden md:block" />{' '}
