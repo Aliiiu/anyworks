@@ -38,7 +38,7 @@ const HomepageHero = () => {
     <div className="flex flex-col md:flex-row justify-between container px-[33px] lg:px-[112px]">
       <div className="lg:mt-[180px] mt-[145px] md:w-[48%]">
         <h1 className="underline">
-          Get connected with <br /> <span ref={el}></span>. <br /> Anywhere and Anytime.
+          Get connected with <br /> <span ref={el}></span> <br /> Anywhere and Anytime.
         </h1>
         <p className="text-[#1D2939] mt-[24px] md:mt-[32px]">
           Anyworks connects you with verified and professional <br className="hidden md:block" />{' '}
