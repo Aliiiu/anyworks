@@ -13,7 +13,7 @@ const Joinwaitlist = () => {
 						Locating trusted and proficient artisans around your vicinity can be
 						extremely difficult to do on your own. Anyworks helps you to
 						eliminate such tension by connecting you with a proficient artisan
-						close by saving you <b className='text-[#210639]'>stress, time, and money.</b>
+						close by saving you stress, time, and money.
 					</p>
 					<div className='flex flex-col items-center gap-x-[20px] md:flex-row justify-center lg:justify-start '>
 						<input
