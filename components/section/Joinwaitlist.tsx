@@ -4,16 +4,16 @@ import Button from '../UI/Button';
 const Joinwaitlist = () => {
 	return (
 		<div id='waitlist' className='xl:scroll-mt-[40rem] scroll-mt-[10rem]'>
-			<div className='lg:mt-[300px] mt-[60px] relative bg-[#7E00C4] flex rounded-[16px] xl:rounded-[48px] p-[30px] md:[40px] lg:pl-[60px] lg:pr-0 lg:py-[70px]'>
+			<div className='xl:mt-[300px] mt-[100px] relative bg-[#7E00C4] flex rounded-[16px] xl:rounded-[48px] p-[30px] md:[40px] lg:pl-[60px] lg:pr-0 lg:py-[70px]'>
 				<div className='xl:w-[65%] lg:w-[90%] w-full'>
 					<h1 className='text-white lg:mb-[15px] mb-[5px] capitalize text-[28px] lg:text-[40px] text-center leading-[45px] lg:text-left '>
 						Sending Verified Artisans to Your Convenience
 					</h1>
-					<p className='text-white mb-[23px] text-center lg:text-left w-full lg:w-[95%] lg:mx-[inherit] mx-[auto]'>
+					<p className='text-white mb-[23px] text-center text-sm lg:text-left w-full lg:w-[95%] lg:mx-[inherit] mx-[auto]'>
 						Locating trusted and proficient artisans around your vicinity can be
 						extremely difficult to do on your own. Anyworks helps you to
 						eliminate such tension by connecting you with a proficient artisan
-						close by saving you stress, time, and money.
+						close by saving you <b className='text-[#210639]'>stress, time, and money.</b>
 					</p>
 					<div className='flex flex-col items-center gap-x-[20px] md:flex-row justify-center lg:justify-start '>
 						<input

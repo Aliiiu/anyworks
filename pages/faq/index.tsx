@@ -85,7 +85,7 @@ const Faq: NextPage = () => {
 									We have answers to all your inquiries
 								</h2>
 								<p className='text-grey mt-[20px] text-base'>
-									Everything you need to know about the product and billing.
+                Here are some of the frequently asked questions.
 								</p>
 							</div>
 							<div className='accordion  my-[40px]'>
@@ -109,15 +109,14 @@ const Faq: NextPage = () => {
 				<div className='container lg:px-[112px] px-[33px]'>
 					<div className='still text-center bg-cyan rounded-lg mt-[30px] mb-[100px] py-[30px] px-[15px]'>
 						<h2 className='text-font-01 font-bold text-lg'>
-							Still have questions?
+            Your Questions Are Not Here?
 						</h2>
 						<p className='text-grey my-2 text-sm'>
-							Can’t find the answer you’re looking for? Please chat to our
-							friendly team.
+            Feel free to ask our friendly team directly
 						</p>
 						<Link href='/contact-us'>
 							<a>
-								<Button styles='bg-primary ' content='Get in touch' />
+								<Button styles='bg-primary m-[auto]' content='Get in touch' />
 							</a>
 						</Link>
 					</div>

@@ -24,7 +24,7 @@ const Home: NextPage = () => {
 					<LearnMore />
 				</div>
 				<Howitworks />
-				<div className='container px-[33px] lg:px-[169px] py-[36px] lg:pt-[120px] lg:pb-[200px]'>
+				<div className='container px-[33px] lg:px-[169px] py-[36px] lg:pt-[120px] pb-[100px] lg:pb-[200px]'>
 					<Whyanyworks />
 				</div>
 			</main>
