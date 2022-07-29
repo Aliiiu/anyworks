@@ -17,9 +17,9 @@ const Footer = () => {
 							/>
 						</a>
 					</Link>
-					<p className='text-white text-xs w-full sm:w-[56%]'>
+					<p className='text-white text-xs w-full sm:w-[59%]'>
 						Imagine you being connected to a reliable person to do your tasks
-						seamlessly in no time
+						seamlessly in no time - Service at Your Doorstep
 					</p>
 				</div>
 				<div
@@ -27,27 +27,27 @@ const Footer = () => {
 					style={{ gridTemplateColumns: 'repeat(2, minmax(0px, 1fr))' }}
 				>
 					<div className='flex flex-col gap-y-[16px]'>
-						<h4 className='text-white text-sm'>Company</h4>
+						<h4 className='text-sm text-white'>Company</h4>
 						<Link href='/aboutUs'>
-							<a className='text-white text-xs'>About Us</a>
+							<a className='text-xs text-white'>About Us</a>
 						</Link>
 						<Link href='/services'>
-							<a className='text-white text-xs'>Services</a>
+							<a className='text-xs text-white'>Services</a>
 						</Link>
 						<Link href='/faqs'>
-							<a className='text-white text-xs'>FAQs</a>
+							<a className='text-xs text-white'>FAQs</a>
 						</Link>
 					</div>
 					<div className='flex flex-col gap-y-[16px]'>
-						<h4 className='text-white text-sm'>Other</h4>
+						<h4 className='text-sm text-white'>Other</h4>
 						<Link href='/privacy-policy'>
-							<a className='text-white text-xs'>Privacy Policy</a>
+							<a className='text-xs text-white'>Privacy Policy</a>
 						</Link>
 						<Link href='/terms-of-use'>
-							<a className='text-white text-xs'>Terms of Use</a>
+							<a className='text-xs text-white'>Terms of Use</a>
 						</Link>
 						<Link href='/contact-us'>
-							<a className='text-white text-xs'>Contact Us</a>
+							<a className='text-xs text-white'>Contact Us</a>
 						</Link>
 					</div>
 				</div>
@@ -57,11 +57,11 @@ const Footer = () => {
 					<div className='bg-primary w-full h-[1px] '></div>
 				</div>
 				<div className='flex flex-col-reverse xs:flex-row justify-between w-full  md:py-[50px] py-[32px] px-[32px] gap-[20px] lg:px-[114px]'>
-					<p className='text-white text-xs'>
+					<p className='text-xs text-white'>
 						© 2022 AnyWorks. All rights reserved.
 					</p>
 					<div
-						className='xs:grid flex gap-4 items-center'
+						className='flex items-center gap-4 xs:grid'
 						style={{ gridTemplateColumns: 'repeat(3, minmax(0px, 1fr))' }}
 					>
 						<a>
