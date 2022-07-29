@@ -42,7 +42,7 @@ const About: NextPage = () => {
 								quality services.
 							</p>
 
-							<div className='mission-vision mt-[50px] flex flex-col gap-y-4'>
+							<div className='mission-vision mt-[75px] flex flex-col gap-[54px]'>
 								<div className='mission'>
 									<h2 className='text-[#7e00c4] font-semibold text-base'>
 										Mission

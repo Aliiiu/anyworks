@@ -44,7 +44,7 @@ const Services: NextPage = () => {
 					<div className='container  service-intro-content text-center md:w-[75%] w-full mx-[auto]  '>
 						<h2 className='text-primary font-semibold text-lg'>Services</h2>
 						<p className='text-font-01 py-2 font-bold'>
-						Over 1K+ ARTISANS AT YOUR FINGERTIP
+						Over 1K+ Artisans at Your Fingertip
 						</p>
 						<p className='text-xs text-font-02'>
 						We connect you with trusted artisans for your daily  needs speedily and without difficulty. Below is a list of the most requested services that are available for you on the ANYWORKS App. 

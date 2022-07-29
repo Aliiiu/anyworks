@@ -28,26 +28,26 @@ const Footer = () => {
 				>
 					<div className='flex flex-col gap-y-[16px]'>
 						<h4 className='text-sm text-white'>Company</h4>
-						<Link href='/aboutUs'>
-							<a className='text-xs text-white'>About Us</a>
+						<Link href='/about'>
+							<a className='text-xs text-white hover:text-grey duration-200'>About Us</a>
 						</Link>
 						<Link href='/services'>
-							<a className='text-xs text-white'>Services</a>
+							<a className='text-xs text-white hover:text-grey duration-200'>Services</a>
 						</Link>
 						<Link href='/faqs'>
-							<a className='text-xs text-white'>FAQs</a>
+							<a className='text-xs text-white hover:text-grey duration-200'>FAQs</a>
 						</Link>
 					</div>
 					<div className='flex flex-col gap-y-[16px]'>
 						<h4 className='text-sm text-white'>Other</h4>
 						<Link href='/privacy-policy'>
-							<a className='text-xs text-white'>Privacy Policy</a>
+							<a className='text-xs text-white hover:text-grey duration-200'>Privacy Policy</a>
 						</Link>
 						<Link href='/terms-of-use'>
-							<a className='text-xs text-white'>Terms of Use</a>
+							<a className='text-xs text-white hover:text-grey duration-200'>Terms of Use</a>
 						</Link>
 						<Link href='/contact-us'>
-							<a className='text-xs text-white'>Contact Us</a>
+							<a className='text-xs text-white hover:text-grey duration-200'>Contact Us</a>
 						</Link>
 					</div>
 				</div>

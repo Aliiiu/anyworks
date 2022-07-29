@@ -74,20 +74,6 @@ const Header: FC<{}> = () => {
                 </li>
                 <li
                   className={clsx('nav-link', {
-                    active: router.pathname == '/about',
-                  })}
-                >
-                  <Link href="/about">About Us</Link>
-                </li>
-                <li
-                  className={clsx('nav-link', {
-                    active: router.pathname == '/contact-us',
-                  })}
-                >
-                  <Link href="/contact-us">Contact Us</Link>
-                </li>
-                <li
-                  className={clsx('nav-link', {
                     active: router.pathname == '/faq',
                   })}
                 >
