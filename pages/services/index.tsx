@@ -42,20 +42,19 @@ const Services: NextPage = () => {
 			<main className='xl:mt-[144px] mt-[112px]'>
 				<div className=' py-[30px] services-intro lg:px-[112px] px-[33px]'>
 					<div className='container  service-intro-content text-center md:w-[75%] w-full mx-[auto]  '>
-						<h2 className='text-primary font-semibold text-lg'>Services</h2>
-						<p className='text-font-01 py-2 font-bold'>
-						Over 1K+ ARTISANS AT YOUR FINGERTIP
-						</p>
-						<p className='text-xs text-font-02'>
-						We connect you with trusted artisans for your daily  needs speedily and without difficulty. Below is a list of the most requested services that are available for you on the ANYWORKS App. 
+						<h3 className='text-primary font-semibold'>Services</h3>
+						<h3 className='text-[#1D2939] font-semibold'>
+							Over 1K+ artisans at your fingertip
+						</h3>
+						<p className='text-font-02 mt-3'>
+							We connect you with trusted artisans for your daily needs speedily
+							and without difficulty. Below is a list of the most requested
+							services that are available for you on the ANYWORKS App.
 						</p>
 					</div>
 				</div>
 				<div className='services bg-cyan mb-[116px]'>
-					<div
-						className='container services-content py-[90px] relative grid gap-[40px] mlg:grid-cols-3 msm:grid-cols-2 lg:px-[112px] px-[33px]'
-						
-					>
+					<div className='container services-content py-[90px] relative grid gap-[40px] mlg:grid-cols-3 msm:grid-cols-2 lg:px-[112px] px-[33px]'>
 						<>
 							<div className='absolute left-0 top-[40px] z-[-1]'>
 								<Image

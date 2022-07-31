@@ -83,7 +83,7 @@ const StepsForArtisians = () => {
 					</div>
 				</div>
 			</div>
-			<div className='relative  hidden lg:block  w-[313px] h-[551px]'>
+			<div className='relative mt-[80px] hidden lg:block  w-[313px] h-[551px]'>
 				<Image
 					src={'/images/stepsIllustration.png'}
 					alt='how it works'

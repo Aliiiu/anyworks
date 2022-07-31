@@ -37,7 +37,7 @@ const steps: stepsType[] = [
 const StepsForUsers = () => {
 	return (
 		<div className='flex mt-[27px] lg:mt-[64px] justify-between w-full'>
-			<div className='relative hidden lg:block w-[313px] h-[551px]'>
+			<div className='relative mt-[50px] hidden lg:block w-[313px] h-[551px]'>
 				<Image
 					src={'/images/stepsIllustration.png'}
 					alt='how it works'

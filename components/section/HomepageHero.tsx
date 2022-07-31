@@ -48,10 +48,11 @@ const HomepageHero = () => {
 				<div className='lg:mt-[180px] mt-[145px] md:w-[48%]'>
 					<h1 className='underline'>
 						Get connected with <br />{' '}
-						<span className='break-all' ref={el}></span> <br /> Anywhere and
+						<span className='break-all' ref={el}></span> <br /> Anywhere and{' '}
+						<br />
 						Anytime.
 					</h1>
-					<p className='text-[#1D2939] mt-[24px] md:mt-[32px]'>
+					<p className='text-[#1D2939] mt-[18px] md:mt-[24px]'>
 						Anyworks connects you with verified and professional{' '}
 						<br className='hidden md:block' /> artisans within your geo-location
 						to accomplish your daily <br className='hidden md:block' />
@@ -65,7 +66,7 @@ const HomepageHero = () => {
 								</a>
 							</Link> */}
 					<Button
-						styles='bg-primary mt-[24px] md:mt-[32px]'
+						styles='bg-primary mt-[18px] md:mt-[24px]'
 						content='Join the Waitlist'
 						onClick={() => setShowmodal(true)}
 					/>

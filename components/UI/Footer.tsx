@@ -17,10 +17,7 @@ const Footer = () => {
 							/>
 						</a>
 					</Link>
-					<p className='text-white text-xs w-full sm:w-[59%]'>
-						Imagine you being connected to a reliable person to do your tasks
-						seamlessly in no time - Service at Your Doorstep
-					</p>
+					<p className='text-white text-xs w-full '>Service at Your Doorstep</p>
 				</div>
 				<div
 					className='grid min-w-[32%] gap-x-[20px] justify-items-start md:justify-items-end'
@@ -64,7 +61,7 @@ const Footer = () => {
 						className='flex items-center gap-4 xs:grid'
 						style={{ gridTemplateColumns: 'repeat(3, minmax(0px, 1fr))' }}
 					>
-						<a>
+						<a href='www.twitter.com'>
 							<Image
 								src={'/svgs/twitter-icon.svg'}
 								alt='twitter icon'
@@ -72,7 +69,7 @@ const Footer = () => {
 								height={25}
 							/>
 						</a>
-						<a>
+						<a href='instagram.com'>
 							<Image
 								src={'/svgs/instagram-icon.svg'}
 								alt='twitter icon'
@@ -80,7 +77,7 @@ const Footer = () => {
 								height={25}
 							/>
 						</a>
-						<a>
+						<a href='fb.com'>
 							<Image
 								src={'/svgs/facebook-icon.svg'}
 								alt='twitter icon'

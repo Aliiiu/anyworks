@@ -51,7 +51,7 @@ const Joinwaitlist = () => {
 							</div>
 						</form>
 					</div>
-					<div className='absolute right-[-20px] w-[150px] hidden xl:block  h-[150px] top-[-190px]'>
+					<div className='absolute right-[-10px] w-[150px] hidden xl:block  h-[150px] top-[-240px]'>
 						<div className='absolute right-6'>
 							<Image
 								src={'/images/sketch.png'}
@@ -62,7 +62,7 @@ const Joinwaitlist = () => {
 							/>
 						</div>
 					</div>
-					<div className='absolute flex-shrink-0 top-[-92px] hidden xl:block right-[70px]'>
+					<div className='absolute flex-shrink-0 top-[-132px] hidden xl:block right-[70px]'>
 						<Image
 							src={'/images/phone-demo.png'}
 							alt='phone demo'

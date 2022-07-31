@@ -11,7 +11,7 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-size: 20px;
+	font-size: 16px;
 	scroll-behavior: smooth;
 	font-family: Raleway, sans-serif !important;
 }
@@ -199,7 +199,7 @@ p {
 	}
 
 	p {
-		font-size: 20px;
+		font-size: 16px;
 	}
 }
 
@@ -207,9 +207,9 @@ p {
 	h1 {
 		font-family: 'Raleway';
 		font-style: normal;
-		font-weight: 700;
-		font-size: 60px;
-		line-height: 80px;
+		font-weight: 800;
+		font-size: 50px;
+		line-height: 60px;
 		letter-spacing: -0.02em;
 		color: #1d2939;
 		text-decoration-color: #7e00c4;
