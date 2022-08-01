@@ -10,26 +10,32 @@ const Services: NextPage = () => {
 		{
 			title: 'Quick Errands',
 			image: '/images/services/service1.png',
+			details: 'Do you want to run quick errands but are too tired to do so? Relax, find someone to do it for you by clicking on the link.'
 		},
 		{
 			title: 'Plumber',
 			image: '/images/services/service2.png',
+			details: 'Are you looking for a competent plumber to fix your pipes and drainages? Tap the icon and select any of the qualified artisans.'
 		},
 		{
 			title: 'Electrician',
 			image: '/images/services/service3.png',
+			details: 'Are you looking to install electrical wiring or repair electrical equipment? We have the best electricians for you!'
 		},
 		{
 			title: 'Hair Stylist',
 			image: '/images/services/service4.png',
+			details: 'Are you that person who finds it inconvenient to visit the salon? Request for a professional hairstylist around you for home service.'
 		},
 		{
 			title: 'Laundry',
 			image: '/images/services/service5.png',
+			details: 'Get your clothes washed and ironed to perfection without leaving your comfort zone. We have laundry experts waiting for your call.'
 		},
 		{
 			title: 'Food',
 			image: '/images/services/service6.png',
+			details: 'Get your favorite delicacies delivered to you with just a click anywhere you are. Zero stress and affordable costs.'
 		},
 	];
 	return (
@@ -44,12 +50,10 @@ const Services: NextPage = () => {
 					<div className='container  service-intro-content text-center md:w-[75%] w-full mx-[auto]  '>
 						<h3 className='text-primary font-semibold'>Services</h3>
 						<h3 className='text-[#1D2939] font-semibold'>
-							Over 1K+ artisans at your fingertip
+							Over 1K+ Artisans at your fingertip
 						</h3>
 						<p className='text-font-02 mt-3'>
-							We connect you with trusted artisans for your daily needs speedily
-							and without difficulty. Below is a list of the most requested
-							services that are available for you on the ANYWORKS App.
+						We connect you with verified artisans around your vicinity to complete your requested services without difficulty. Below is a list of the most requested services that are available for you on the ANYWORKS App. 
 						</p>
 					</div>
 				</div>

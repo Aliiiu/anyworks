@@ -35,9 +35,6 @@ const About: NextPage = () => {
 						</div>
 						<div className='about-intro-content lg:px-[112px] px-[33px] text-center md:w-[75%] w-full mx-[auto]  '>
 							<h3 className='text-[#7e00c4] font-semibold'>About Us</h3>
-							<h3 className='text-font-01 font-semibold'>
-								We do things differently...
-							</h3>
 							<p className='text-font-01'>
 								Anyworks is the bridging gap between users looking for help with
 								their domestic needs and experienced artisans who can deliver

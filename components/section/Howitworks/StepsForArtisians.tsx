@@ -15,7 +15,7 @@ const steps: stepsType[] = [
 	{
 		icon: '/images/menu_2.png',
 		title: 'Set Availability',
-		content: `Turn on your google location and set your availability to get connected to users around your vicinity. `,
+		content: `Turn on your google location and set your availability to connect to users around your vicinity. `,
 	},
 	{
 		icon: '/images/menu_3.png',

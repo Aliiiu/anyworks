@@ -15,7 +15,7 @@ const steps: stepsType[] = [
 	{
 		icon: '/images/menu_2.png',
 		title: 'Book a Service',
-		content: `Request for needed service and get connected immediately with a qualified artisan close to your location.`,
+		content: `Request service and get connected immediately with a qualified artisan close to your location.`,
 	},
 	{
 		icon: '/images/menu_3.png',
@@ -25,12 +25,12 @@ const steps: stepsType[] = [
 	{
 		icon: '/images/menu_4.png',
 		title: 'Make payment',
-		content: `Once the artisan gets the job done, make payment through the wallet shown on your user page.`,
+		content: `Once the artisan gets the job done, make payment.`,
 	},
 	{
 		icon: '/images/menu_2.png',
 		title: 'Rate services',
-		content: `Give a review of how much you loved the service offered by the artisan. This can be seen by other users of Anyworks.`,
+		content: `Give a review of your satisfaction with the service offered by the artisan. Other users of Anyworks can see this.`,
 	},
 ];
 

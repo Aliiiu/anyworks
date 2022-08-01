@@ -79,7 +79,7 @@ const Header: FC<{}> = () => {
 										active: router.pathname == '/faq',
 									})}
 								>
-									<Link href='/faq'>FAQ</Link>
+									<Link href='/faq'>FAQs</Link>
 								</li>
 							</ul>
 						</nav>
@@ -143,29 +143,11 @@ const Header: FC<{}> = () => {
 							</li>
 							<li
 								className={clsx('text-font-02 text-sm hover:text-font-01', {
-									'text-primary': router.pathname == '/about',
-								})}
-							>
-								<Link href='/about'>
-									<a className='flex'>About Us</a>
-								</Link>
-							</li>
-							<li
-								className={clsx('text-font-02 text-sm hover:text-font-01', {
-									'text-primary': router.pathname == '/contact-us',
-								})}
-							>
-								<Link href='/contact-us'>
-									<a className='flex'>Contact Us</a>
-								</Link>
-							</li>
-							<li
-								className={clsx('text-font-02 text-sm hover:text-font-01', {
 									'text-primary': router.pathname == '/faq',
 								})}
 							>
 								<Link href='/faq'>
-									<a className='flex'>FAQ</a>
+									<a className='flex'>FAQs</a>
 								</Link>
 							</li>
 						</ul>
