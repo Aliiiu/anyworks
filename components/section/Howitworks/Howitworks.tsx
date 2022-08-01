@@ -40,7 +40,9 @@ const Howitworks = () => {
 			<div className=' container px-[33px]  xl:pl-[230px]'>
 				<StepsForUsers />
 			</div>
-			<StepsForArtisians />
+			<div className='container'>
+				<StepsForArtisians />
+			</div>
 		</div>
 	);
 };
