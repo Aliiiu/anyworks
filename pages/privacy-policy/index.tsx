@@ -26,7 +26,7 @@ const Privacypolicy = () => {
 						height={'180px'}
 					/>
 				</div>
-				<div className='xl:mt-[144px] mt-[112px] mb-[65px] px-[33px] lg:px-[234px]'>
+				<div className='xl:mt-[144px] mt-[112px] mb-[65px] lg:mb-[100px] px-[33px] lg:px-[234px]'>
 					<h2 className='lg:mb-[38px] mb-[20px] text-center text-primary'>
 						Privacy Policy
 					</h2>

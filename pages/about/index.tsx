@@ -67,7 +67,7 @@ const About: NextPage = () => {
 				<div className='container bg-[rgb(0_204_205)] bg-opacity-20 lg:px-[112px] px-[33px]'>
 					<Benefit
 						reasons={reasons.filter((item) => item.id !== 4)}
-						classes='grid grid-cols-3 mt-[20px] gap-x-[80px]'
+						classes='grid lg:grid-cols-3 mt-[20px] gap-x-[80px]'
 						divClass='pt-[80px] pb-[50px]'
 					/>
 				</div>

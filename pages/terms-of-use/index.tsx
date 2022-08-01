@@ -26,7 +26,7 @@ const Termsofuse = () => {
 						height={'180px'}
 					/>
 				</div>
-				<div className='lg:mt-[180px] mt-[145px] mb-[65px] px-[33px] lg:px-[234px]'>
+				<div className='lg:mt-[180px] mt-[145px] mb-[65px] lg:mb-[100px] px-[33px] lg:px-[234px]'>
 					<h2 className='mb-[24px] text-primary text-center lg:mb-[38px]'>
 						Terms of Use
 					</h2>
