@@ -60,7 +60,7 @@ const Services: NextPage = () => {
 						<h3 className='text-[#1D2939] text-[24px] md:text-[36px] leading-[30px] font-semibold'>
 							Over 1K+ Artisans at your fingertip
 						</h3>
-						<p className='text-font-02 mt-3'>
+						<p className='text-font-02 mt-3 lg:w-[60%] mx-auto'>
 							We connect you with verified artisans around your vicinity to
 							complete your requested services without difficulty. Below is a
 							list of the most requested services that are available for you on
