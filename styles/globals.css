@@ -182,11 +182,11 @@ p {
 
 	h2 {
 		font-weight: 600;
-		font-size: 48px;
+		font-size: 36px;
 		line-height: 60px;
 		text-align: center;
 		letter-spacing: -0.02em;
-		color: #1d2939;
+		color: #7e00c4;
 	}
 
 	h3 {
@@ -217,10 +217,10 @@ p {
 
 	h2 {
 		font-weight: 600;
-		font-size: 36px;
+		font-size: 48px;
 		line-height: 60px;
 		text-align: center;
 		letter-spacing: -0.02em;
-		color: #7e00c4;
+		color: #1d2939;
 	}
 }

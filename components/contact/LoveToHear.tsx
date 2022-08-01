@@ -30,10 +30,10 @@ const contacts: Contact[] = [
 const LoveToHear = () => {
 	return (
 		<div className='container text-center lg:px-[112px] px-[33px]'>
-			<h2 className='text-lg text-primary font-bold '>Contact us</h2>
-			<h2 className='text-lg text-font-01 font-bold my-[10px]'>
+			<h3 className='text-primary font-bold '>Contact us</h3>
+			<h3 className='text-font-01 font-bold my-[10px]'>
 				We are always ready to hear from you
-			</h2>
+			</h3>
 			<p className='text-base text-font-02'>
 				Our friendly team is here to start a conversation with you.
 			</p>

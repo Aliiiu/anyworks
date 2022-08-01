@@ -4,8 +4,8 @@ import HomepageHero from '../components/section/HomepageHero';
 import styles from '../styles/Home.module.css';
 import ServiceSection from '../components/section/Service';
 import LearnMore from '../components/section/LearnMore';
-import Howitworks from '../components/section/Howitworks';
-import Whyanyworks from '../components/section/Whyanyworks';
+import Howitworks from '../components/section/Howitworks/Howitworks';
+import Whyanyworks from '../components/section/WhyAnyWorks/Whyanyworks';
 
 const Home: NextPage = () => {
 	return (

@@ -5,7 +5,7 @@ import { BsArrowUpRight } from 'react-icons/bs';
 const ServiceSection = () => {
 	return (
 		<div className='container px-[33px] lg:px-[112px]'>
-			<h1 className='text-[#00CCCD] leading-[55px]'>
+			<h1 className='text-[#00CCCD] font-extrabold leading-[55px]'>
 				One Platform <br /> Many <span className='text-primary'>Services</span>
 			</h1>
 			<p className='text-[#00CCCD] mt-[23px] mb-[35px]'>

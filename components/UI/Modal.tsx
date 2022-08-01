@@ -1,6 +1,7 @@
 import Image from 'next/image';
-import { Fragment, useEffect, useState } from 'react';
+import React, { Fragment, useContext, useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
+import WaitlistContext from '../../context/waitlist-context';
 import Button from './Button';
 
 interface Props {
@@ -17,6 +18,20 @@ const BackdropModal = ({ onClick }: Props) => {
 };
 
 const OverLayModal = ({ onClick }: Props) => {
+	const waitCtx = useContext(WaitlistContext);
+	const [enteredEmail, setEnterEmail] = useState('');
+	const [enteredName, setEnteredName] = useState('');
+
+	const emailChangeHandler: React.ChangeEventHandler<HTMLInputElement> = (
+		event
+	) => {
+		setEnterEmail(event.target.value);
+	};
+	const nameChangeHandler: React.ChangeEventHandler<HTMLInputElement> = (
+		event
+	) => {
+		setEnteredName(event.target.value);
+	};
 	return (
 		<Fragment>
 			<div>
@@ -43,26 +58,30 @@ const OverLayModal = ({ onClick }: Props) => {
 					</p>
 
 					<form action=''>
-					<div className='flex flex-col mb-[14px] items-start'>
-								<label className='mb-[10px] text-sm' htmlFor='firstName'>
-									Your name
-								</label>
-								<input
-									type='text'
-									placeholder='First Name'
-									className='px-[12px] placeholder:text-xs text-sm py-[8px] w-full inputBorder'
-								/>
-							</div>
-							<div className='flex flex-col mb-[14px] items-start'>
-								<label className='mb-[10px] text-sm' htmlFor='email'>
-									Email
-								</label>
-								<input
-									type='mail'
-									placeholder='you@mail.com'
-									className='px-[12px] placeholder:text-xs text-sm py-[8px] w-full inputBorder'
-								/>
-							</div>
+						<div className='flex flex-col mb-[14px] items-start'>
+							<label className='mb-[10px] text-sm' htmlFor='firstName'>
+								Your name
+							</label>
+							<input
+								type='text'
+								onChange={nameChangeHandler}
+								value={enteredName}
+								placeholder='First Name'
+								className='px-[12px] placeholder:text-xs text-sm py-[8px] w-full inputBorder'
+							/>
+						</div>
+						<div className='flex flex-col mb-[14px] items-start'>
+							<label className='mb-[10px] text-sm' htmlFor='email'>
+								Email
+							</label>
+							<input
+								type='mail'
+								onChange={emailChangeHandler}
+								value={waitCtx.enteredEmail || enteredEmail}
+								placeholder='you@mail.com'
+								className='px-[12px] placeholder:text-xs text-sm py-[8px] w-full inputBorder'
+							/>
+						</div>
 						<Button
 							content={'Join the Waitlist'}
 							styles='bg-primary w-full mt-[15px]'

@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import StepsForArtisians from '../StepsForArtisians';
-import StepsForUsers from '../StepsForUsers';
+import StepsForArtisians from './StepsForArtisians';
+import StepsForUsers from './StepsForUsers';
 
 interface stepsType {
 	icon: string;

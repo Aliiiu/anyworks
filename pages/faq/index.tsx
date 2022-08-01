@@ -81,11 +81,11 @@ const Faq: NextPage = () => {
 						</div>
 						<div className=' md:w-[80%] m-[auto] w-[100%]'>
 							<div className='heading text-center'>
-								<h2 className='text-font-03 font-semibold text-xl'>
+								<h3 className='text-font-03 font-semibold'>
 									We have answers to all your inquiries
-								</h2>
-								<p className='text-grey mt-[20px] text-base'>
-                Here are some of the frequently asked questions.
+								</h3>
+								<p className='text-grey mt-[10px] text-base'>
+									Here are some of the frequently asked questions.
 								</p>
 							</div>
 							<div className='accordion  my-[40px]'>
@@ -109,10 +109,10 @@ const Faq: NextPage = () => {
 				<div className='container lg:px-[112px] px-[33px]'>
 					<div className='still text-center bg-cyan rounded-lg mt-[30px] mb-[100px] py-[30px] px-[15px]'>
 						<h2 className='text-font-01 font-bold text-lg'>
-            Your Questions Are Not Here?
+							Your Questions Are Not Here?
 						</h2>
 						<p className='text-grey my-2 text-sm'>
-            Feel free to ask our friendly team directly
+							Feel free to ask our friendly team directly
 						</p>
 						<Link href='/contact-us'>
 							<a>

@@ -1,13 +1,16 @@
 import Image from 'next/image';
-import React, { ChangeEventHandler, useState } from 'react';
-import Button from '../UI/Button';
-import Modal from '../UI/Modal';
+import React, { ChangeEventHandler, useContext, useState } from 'react';
+import WaitlistContext from '../../../context/waitlist-context';
+import Button from '../../UI/Button';
+import Modal from '../../UI/Modal';
 
 const Joinwaitlist = () => {
+	const waitCtx = useContext(WaitlistContext);
 	const [enteredInput, setEnteredInput] = useState('');
 	const [showModal, setShowmodal] = useState(false);
 	const changeHandler: ChangeEventHandler<HTMLInputElement> = (event) => {
 		setEnteredInput(event.target.value);
+		waitCtx.emailHandler(event.target.value);
 	};
 	const submitHandler = (event: React.FormEvent<HTMLFormElement>) => {
 		event.preventDefault();
