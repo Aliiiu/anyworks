@@ -36,7 +36,7 @@ const steps: stepsType[] = [
 
 const StepsForArtisians = () => {
 	return (
-		<div className='flex relative mt-[116px] md:py-[110px] py-[70px] px-[33px] xl:pl-[230px] xl:pr-[200px] bg-[#00CCCD] bg-opacity-20 justify-between w-full'>
+		<div className='container flex relative mt-[116px] md:py-[110px] py-[70px] px-[33px] xl:pl-[230px] xl:pr-[200px] justify-between w-full'>
 			<div className='absolute hidden xl:block top-[-100px] left-[580px]'>
 				<Image
 					src={'/images/PointingRight.png'}
@@ -46,7 +46,7 @@ const StepsForArtisians = () => {
 				/>
 			</div>
 			<div className='xl:w-[60%]'>
-				<h3 className='font-semibold capitalize text-left text-[#1D2939]'>
+				<h3 className='font-semibold capitalize text-left leading-[45px] text-[#1D2939]'>
 					Easy steps For <br /> Anyworks{' '}
 					<span className='text-[#7E00C4]'>artisians</span>
 				</h3>
@@ -71,7 +71,7 @@ const StepsForArtisians = () => {
 									/>
 								</div>
 								<div>
-									<h6 className='text-[#475467] text-[16px] md:text-[20px] font-semibold'>
+									<h6 className='text-[#475467] text-[16px] md:text-[20px] font-bold'>
 										{item.title}
 									</h6>
 									<p className='text-[#475467] text-[14px] md:text-[16px] w-[85%]'>

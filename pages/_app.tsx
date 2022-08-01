@@ -2,6 +2,7 @@ import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Header from '../components/UI/Header';
 import Footer from '../components/UI/Footer';
+import Head from 'next/head';
 import { WaitlistContextProvider } from '../context/waitlist-context';
 
 function MyApp({ Component, pageProps }: AppProps) {

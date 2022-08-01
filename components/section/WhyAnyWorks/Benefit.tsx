@@ -26,7 +26,7 @@ const Benefit: FC<{
 							/>
 						</div>
 						<div className=''>
-							<h6 className='text-[#210639] text-[20px] font-semibold'>
+							<h6 className='text-[#210639] text-[20px] font-bold'>
 								{item.title}
 							</h6>
 							<p className='text-[#475467] mt-3 text-[16px] w-[100%]'>

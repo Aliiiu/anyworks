@@ -36,7 +36,7 @@ const steps: stepsType[] = [
 
 const StepsForUsers = () => {
 	return (
-		<div className='flex mt-[27px] lg:mt-[64px] justify-between w-full'>
+		<div className='flex mt-[27px] lg:mt-[64px] mb-[70px] lg:mb-[100px] justify-between w-full'>
 			<div className='relative mt-[50px] hidden lg:block w-[313px] h-[551px]'>
 				<Image
 					src={'/images/stepsIllustration.png'}
@@ -72,7 +72,7 @@ const StepsForUsers = () => {
 									/>
 								</div>
 								<div className=''>
-									<h6 className='text-[#475467] text-[16px] md:text-[20px] capitalize font-semibold'>
+									<h6 className='text-[#475467] text-[16px] md:text-[20px] capitalize font-bold'>
 										{item.title}
 									</h6>
 									<p className='text-[#475467] text-[14px] md:text-[16px] xl:w-[80%]'>

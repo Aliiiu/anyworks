@@ -7,15 +7,17 @@ const LearnMore = () => {
 	return (
 		<div className='container px-[33px] lg:px-[112px]'>
 			<div className='flex flex-col justify-between md:flex-row'>
-				<h2 className='text-[#1D2939] text-left mb-[20px] md:mb-0'>
+				<h3 className='text-[#1D2939] text-left mb-[20px] md:mb-0'>
 					Do you need any service rendered? <br /> We have ARTISANS
-				</h2>
+				</h3>
 				<div className='lg:w-[39%] '>
 					<p className='mb-[20px] text-[#667085;]'>
-						We’re a trusted platform connecting millions of <br /> users
-						(requesting different services) to reliable <br /> and verified
-						artisans. We have identified and <br /> screened over 800 different
-						artisans around <br /> your vicinity you aren’t aware of.
+						We’re a trusted platform connecting millions of{' '}
+						<br className='hidden md:block' /> users (requesting different
+						services) to reliable <br className='hidden md:block' /> and
+						verified artisans. We have identified and <br /> screened over 800
+						different artisans around <br className='hidden md:block' /> your
+						vicinity you aren’t aware of.
 					</p>
 					<Button
 						styles='bg-[#7E00C4]'

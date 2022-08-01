@@ -40,7 +40,7 @@ const Howitworks = () => {
 			<div className=' container px-[33px]  xl:pl-[230px]'>
 				<StepsForUsers />
 			</div>
-			<div className='container'>
+			<div className='bg-[#00CCCD] bg-opacity-20'>
 				<StepsForArtisians />
 			</div>
 		</div>

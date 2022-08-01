@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
+/* @font-face {
 	font-family: 'Raleway';
 	src: url('/fonts/Raleway-Regular.ttf');
-}
+} */
 
 html,
 body {
@@ -13,7 +13,9 @@ body {
 	margin: 0;
 	font-size: 16px;
 	scroll-behavior: smooth;
-	font-family: Raleway, sans-serif !important;
+	font-family: raleway, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 a {
@@ -125,18 +127,21 @@ p {
 	background-image: url('/images/service-1.png');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .serviceTwo {
 	background-image: url('/images/service-2.png');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .serviceThree {
 	background-image: url('/images/service-3.png');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .modal {
