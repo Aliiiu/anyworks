@@ -29,7 +29,7 @@ const Joinwaitlist = () => {
 			<div id='waitlist' className='xl:scroll-mt-[40rem] scroll-mt-[10rem]'>
 				<div className='xl:mt-[300px] mt-[100px] relative bg-[#7E00C4] flex rounded-[16px] xl:rounded-[48px] p-[30px] md:[40px] lg:pl-[60px] lg:pr-0 lg:py-[70px]'>
 					<div className='xl:w-[65%] lg:w-[90%] w-full'>
-						<h1 className='text-white mb-[15px] capitalize text-[28px] lg:text-[40px] leading-[30px] lg:leading-[45px] lg:text-left '>
+						<h1 className='text-white mb-[15px] font-semibold capitalize text-[28px] lg:text-[40px] leading-[30px] lg:leading-[45px] lg:text-left '>
 							Sending Verified Artisans to <br className='hidden lg:block' />{' '}
 							Your Convenience
 						</h1>

@@ -54,17 +54,17 @@ const Services: NextPage = () => {
 			<main className='xl:mt-[144px] mt-[112px]'>
 				<div className=' py-[30px] services-intro lg:px-[112px] px-[33px]'>
 					<div className='container service-intro-content text-center md:w-[75%] w-full mx-[auto]'>
-						<h3 className='text-primary text-[28px] md:text-[36px] font-semibold'>
+						<h3 className='text-primary text-[28px] md:mb-[10px] md:text-[36px] font-semibold'>
 							Services
 						</h3>
-						<h3 className='text-[#1D2939] text-[24px] md:text-[36px] leading-[30px] font-semibold'>
+						<h3 className='text-[#1D2939] text-[24px] md:mb-[15px] md:text-[28px] leading-[30px] font-semibold'>
 							Over 1K+ Artisans at your fingertip
 						</h3>
-						<p className='text-font-02 mt-3 lg:w-[60%] mx-auto'>
+						<p className='text-font-02 mt-3 lg:w-[70%] mx-auto'>
 							We connect you with verified artisans around your vicinity to
 							complete your requested services without difficulty. Below is a
 							list of the most requested services that are available for you on
-							the ANYWORKS App.
+							the anyworks app.
 						</p>
 					</div>
 				</div>
@@ -88,13 +88,13 @@ const Services: NextPage = () => {
 								/>
 							</div>
 							<div className='mlg:w-[74%] grid gap-[40px] mlg:grid-cols-3 msm:grid-cols-2 m-[auto]'>
-							{allServices.map((service) => {
-								return (
-									<div key={service.title}>
-										<ServiceCard service={service} />
-									</div>
-								);
-							})}
+								{allServices.map((service) => {
+									return (
+										<div key={service.title}>
+											<ServiceCard service={service} />
+										</div>
+									);
+								})}
 							</div>
 						</>
 					</div>
