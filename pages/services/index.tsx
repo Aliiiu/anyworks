@@ -69,7 +69,7 @@ const Services: NextPage = () => {
 					</div>
 				</div>
 				<div className='services bg-cyan mb-[116px]'>
-					<div className='container services-content py-[90px] relative grid gap-[40px] mlg:grid-cols-3 msm:grid-cols-2 lg:px-[112px] px-[33px]'>
+					<div className='container services-content py-[90px] relative lg:px-[112px] px-[33px]'>
 						<>
 							<div className='absolute hidden lg:block left-0 top-[40px] z-[-1]'>
 								<Image
@@ -87,6 +87,7 @@ const Services: NextPage = () => {
 									height={180}
 								/>
 							</div>
+							<div className='mlg:w-[74%] grid gap-[40px] mlg:grid-cols-3 msm:grid-cols-2 m-[auto]'>
 							{allServices.map((service) => {
 								return (
 									<div key={service.title}>
@@ -94,6 +95,7 @@ const Services: NextPage = () => {
 									</div>
 								);
 							})}
+							</div>
 						</>
 					</div>
 				</div>

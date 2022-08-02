@@ -65,7 +65,7 @@ const Faq: NextPage = () => {
             <div className="absolute hidden lg:block bottom-[20px] right-0 z-[-1]">
               <Image src="/images/circle2.png" alt="circle" width={110} height={180} />
             </div>
-            <div className=" md:w-[80%] m-[auto] w-[100%]">
+            <div className=" md:w-[64%] m-[auto] w-[100%]">
               <div className="heading text-center">
                 <h3 className="text-font-03 font-semibold">
                   We have answers to all your inquiries
