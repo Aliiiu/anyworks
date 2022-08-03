@@ -14,7 +14,7 @@ interface MProps {
 }
 
 const BackdropModal = ({ onClick }: Props) => {
-	return <div onClick={onClick} className='backdrop cursor-pointer'></div>;
+	return <div onClick={onClick} className='cursor-pointer backdrop'></div>;
 };
 
 const OverLayModal = ({ onClick }: Props) => {
@@ -52,10 +52,10 @@ const OverLayModal = ({ onClick }: Props) => {
 					<h3 className='text-[#333333] text-left font-semibold text-xl'>
 						Be the first to get notified
 					</h3>
-					<p className='text-[14px] text-[#1D2939]'>
+					{/* <p className='text-[14px] text-[#1D2939]'>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit at
 						donec mi diam leo aliquam non sagittis.
-					</p>
+					</p> */}
 
 					<form action=''>
 						<div className='flex flex-col mb-[14px] items-start'>
