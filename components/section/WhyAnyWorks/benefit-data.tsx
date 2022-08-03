@@ -23,6 +23,6 @@ export const reasons: reasonType[] = [
 	{
 		id: 4,
 		title: 'Transparent work-flow.',
-		content: `Anyworks is equipped with a feature to help you stay connected to the needed artisans. We also give you all the support needed to enjoy premium and transparent services.Anyworks is equipped with a feature to help you stay connected to the needed artisans. We also give you all the support needed to enjoy premium and transparent services.`,
+		content: `Anyworks is equipped with a feature to help you stay connected to the needed artisans. We also give you all the support needed to enjoy premium and transparent services.`,
 	},
 ];
