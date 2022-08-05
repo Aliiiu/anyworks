@@ -13,7 +13,7 @@ const Benefit: FC<{
 }> = ({ reasons, classes, divClass }) => {
 	return (
 		<div className={divClass}>
-			<h3 className='text-[#7E00C4] font-bold text-center'>WHY ANYWORKS</h3>
+			<h3 className='text-[#7E00C4] font-bold text-center'>WHY ANYWORKS ?</h3>
 			<div className={classes}>
 				{reasons.map((item, idx) => (
 					<div key={idx} className='flex mb-[20px] md:mb-[30px]'>

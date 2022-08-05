@@ -7,17 +7,24 @@ const LearnMore = () => {
 	return (
 		<div className='container px-[33px] lg:px-[112px]'>
 			<div className='flex flex-col justify-between md:flex-row'>
-				<h3 className='text-[#1D2939] text-left mb-[20px] md:mb-0'>
-					Do you need any service rendered? <br /> We have ARTISANS
-				</h3>
+				<div>
+					<h3 className='text-[#1D2939] text-left mb-[20px] md:mb-0'>
+						Do you need any service rendered?
+						<br />
+					</h3>
+					<p>
+						We have service providers that can be at your doorstep in a matter
+						of minutes.
+					</p>
+				</div>
 				<div className='lg:w-[39%] '>
 					<p className='mb-[20px] text-[#667085;]'>
-						We’re a trusted platform connecting millions of{' '}
-						<br className='hidden md:block' /> users (requesting different
-						services) to reliable <br className='hidden md:block' /> and
-						verified artisans. We have identified and <br /> screened over 800
-						different artisans around <br className='hidden md:block' /> your
-						vicinity you aren’t aware of.
+						We are a trusted platform connecting millions of users
+						<br className='hidden md:block' /> (requiring different services) to
+						reliable and verified <br className='hidden md:block' /> service
+						providers. We have identified and screened over 800 different
+						service providers and some may be around your vicinity that you
+						aren’t aware of.
 					</p>
 					<Button
 						styles='bg-[#7E00C4]'

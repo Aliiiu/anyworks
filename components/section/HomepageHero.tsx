@@ -53,12 +53,11 @@ const HomepageHero = () => {
 						Anytime.
 					</h1>
 					<p className='text-[#1D2939] mt-[18px] md:mt-[24px]'>
-						Anyworks connects you with verified and professional{' '}
-						<br className='hidden md:block' /> artisans within your geo-location
-						to accomplish your daily <br className='hidden md:block' />
-						tasks. You don’t want to miss out on exciting news about{' '}
-						<br className='hidden md:block' /> Anyworks. Get notified
-						immediately when we launch.
+						Anyworks connects you to verified and professional service
+						<br className='hidden md:block' /> providers within your specified
+						geo-location. You don’t want <br className='hidden md:block' /> to
+						miss out on exciting news about Anyworks. Get notified{' '}
+						<br className='hidden md:block' /> immediately when we launch
 					</p>
 					{/* <Link href="/#waitlist">
 								<a>

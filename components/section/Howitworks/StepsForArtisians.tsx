@@ -47,8 +47,8 @@ const StepsForArtisians = () => {
 			</div>
 			<div className='xl:w-[60%]'>
 				<h3 className='font-semibold capitalize text-left leading-[45px] text-[#1D2939]'>
-					5 Easy steps For <br /> All Anyworks{' '}
-					<span className='text-[#7E00C4]'>artisians</span>
+					Easy steps For <br /> Anyworks{' '}
+					<span className='text-[#7E00C4]'>service providers</span>
 				</h3>
 				<div className='absolute hidden xl:block top-50 left-10'>
 					<Image

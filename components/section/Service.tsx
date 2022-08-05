@@ -9,9 +9,9 @@ const ServiceSection = () => {
 				One Platform <br /> Many <span className='text-primary'>Services</span>
 			</h1>
 			<p className='text-[#00CCCD] mt-[23px] mb-[35px]'>
-				Here are the most popular artisans readily available to deliver{' '}
-				<br className='hidden md:block' /> quality services to you. Tap the icon
-				to “explore all”
+				Here are the most popular service providers readily available to{' '}
+				<br className='hidden md:block' /> deliver quality services to you. Tap
+				the icon to “explore all”
 			</p>
 			<div className='bg-[#00CCCD] grid grid-rows-4 gap-y-[20px] md:grid-cols-2 md:grid-rows-1 lg:grid-cols-4 md:gap-x-[20px] rounded-[30px] p-[15px] w-full'>
 				<div className='w-full relative overflow-hidden serviceOne h-[230px] bg-center serviceStyle'>
