@@ -10,7 +10,7 @@ const steps: stepsType[] = [
 	{
 		icon: '/images/menu_1.png',
 		title: 'Register',
-		content: `Download the ANYWORKS ARTISAN app and register as an artisan. Submit all required information and documents for verification.`,
+		content: `Download the ANYWORKS app and register as a service provider. Submit all required information and documents for verification and background check.`,
 	},
 	{
 		icon: '/images/menu_2.png',
@@ -74,7 +74,7 @@ const StepsForArtisians = () => {
 									<h6 className='text-[#475467] text-[16px] md:text-[20px] font-bold'>
 										{item.title}
 									</h6>
-									<p className='text-[#475467] text-[14px] md:text-[16px] w-[85%]'>
+									<p className='text-[#475467] text-[14px] md:text-[16px] lg:w-[85%]'>
 										{item.content}
 									</p>
 								</div>

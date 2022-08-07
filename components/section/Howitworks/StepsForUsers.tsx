@@ -19,7 +19,7 @@ const steps: stepsType[] = [
 	},
 	{
 		icon: '/images/menu_3.png',
-		title: 'Negotiate price with artisans',
+		title: 'Negotiate fees with service provider.',
 		content: `Connect with the artisan using the chat or call feature on the app to discuss further the work and strike a bargain.`,
 	},
 	{
@@ -47,7 +47,7 @@ const StepsForUsers = () => {
 			</div>
 			<div className='md:w-[63%] relative'>
 				<h3 className='font-semibold text-[#1D2939] lg:leading-[45px] leading-[38px] text-left capitalize'>
-					5 Easy steps For <br /> All Anyworks{' '}
+					Easy steps For <br /> All Anyworks{' '}
 					<span className='text-[#7E00C4]'>Users</span>
 				</h3>
 				<div className='absolute hidden xl:block top-[-10px] right-[130px]'>
@@ -75,7 +75,7 @@ const StepsForUsers = () => {
 									<h6 className='text-[#475467] text-[16px] md:text-[20px] capitalize font-bold'>
 										{item.title}
 									</h6>
-									<p className='text-[#475467] text-[14px] md:text-[16px] xl:w-[80%]'>
+									<p className='text-[#475467] text-[14px] md:text-[16px] lg:w-[80%]'>
 										{item.content}
 									</p>
 								</div>

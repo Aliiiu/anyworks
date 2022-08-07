@@ -27,11 +27,10 @@ const Joinwaitlist = () => {
 				/>
 			)}
 			<div id='waitlist' className='xl:scroll-mt-[40rem] scroll-mt-[10rem]'>
-				<div className='xl:mt-[300px] mt-[100px] relative bg-[#7E00C4] flex rounded-[16px] xl:rounded-[48px] p-[30px] md:[40px] lg:pl-[60px] lg:pr-0 lg:py-[70px]'>
+				<div className='xl:mt-[300px] mt-[100px] relative bg-[#7E00C4] flex rounded-[16px] xl:rounded-[48px] p-[20px] md:[40px] lg:pl-[60px] lg:pr-0 lg:py-[70px]'>
 					<div className='xl:w-[65%] lg:w-[90%] w-full'>
-						<h1 className='text-white mb-[15px] font-semibold capitalize text-[28px] lg:text-[40px] leading-[30px] lg:leading-[45px] lg:text-left '>
-							Sending Verified Service Providers{' '}
-							<br className='hidden lg:block' /> At Your Convenience
+						<h1 className='text-white mb-[15px] font-semibold capitalize text-[26px] lg:text-[40px] leading-[30px] lg:leading-[45px] lg:text-left '>
+							Sending Verified Service Providers At Your Convenience
 						</h1>
 						<p className='text-white mb-[23px] text-sm lg:text-left w-full lg:w-[95%] lg:mx-[inherit] mx-[auto]'>
 							Locating trusted and proficient artisans around your vicinity can
