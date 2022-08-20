@@ -32,11 +32,8 @@ const Joinwaitlist = () => {
 						<h1 className='text-white mb-[15px] font-semibold capitalize text-[26px] lg:text-[40px] leading-[30px] lg:leading-[45px] lg:text-left '>
 							Sending Verified Service Providers At Your Convenience
 						</h1>
-						<p className='text-white mb-[23px] text-sm lg:text-left w-full lg:w-[95%] lg:mx-[inherit] mx-[auto]'>
-							Locating trusted and proficient artisans around your vicinity can
-							be extremely difficult to do on your own. Anyworks helps you to
-							eliminate such tension by connecting you with a proficient artisan
-							close by saving you stress, time, and money.
+						<p className='text-white mb-[23px] text-justify text-sm lg:text-left w-full lg:w-[95%] lg:mx-[inherit] mx-[auto]'>
+						Locating proficient service providers around your vicinity and when can sometimes be extremely difficult. Anyworks app helps you to reduce such difficulty by connecting you with service providers close to where the service is needed even when you know nobody in the neighborhood thereby saving you stress, time, and money.
 						</p>
 						<form onSubmit={submitHandler}>
 							<div className='flex flex-col items-center gap-x-[20px] md:flex-row justify-center lg:justify-start '>
