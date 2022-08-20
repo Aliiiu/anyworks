@@ -3,7 +3,7 @@ import Image from 'next/image';
 interface Contact {
 	title: string;
 	content: string;
-	info: string;
+	info: any;
 	image: any;
 }
 const contacts: Contact[] = [
@@ -11,19 +11,19 @@ const contacts: Contact[] = [
 		image: '/images/contact/email.svg',
 		title: 'Email',
 		content: 'Our friendly team is here to help.',
-		info: 'hissasd@asdsd.com',
+		info: 'info@anyworks-ng.com',
 	},
 	{
 		image: '/images/contact/location.svg',
 		title: 'Office',
 		content: 'Come say hello at our office HQ.',
-		info: '100 Smith Street Collingwood VIC 3066 AU',
+		info: '2nd floor, Awolowo House, Obafemi Awolowo way, Ikeja, P.O.Box 5013, Ikeja, Lagos State Nigeria.',
 	},
 	{
 		image: '/images/contact/phone.svg',
 		title: 'Phone',
 		content: 'Mon-Fri from 8am to 5pm.',
-		info: '+1 (555) 000-0000',
+		info: <a href='tel:+2348110658901'>+234 811 0658 901</a>,
 	},
 ];
 
