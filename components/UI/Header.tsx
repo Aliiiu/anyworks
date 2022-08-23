@@ -133,7 +133,7 @@ const Header: FC<{}> = () => {
 					>
 						<ul className='flex flex-col gap-y-[25px]'>
 							<li
-								className={clsx('text-font-02 text-sm hover:text-font-01', {
+								className={clsx('text-font-02 text-[24px] font-medium hover:text-font-01', {
 									'text-primary': router.pathname == '/about',
 								})}
 							>
@@ -142,12 +142,30 @@ const Header: FC<{}> = () => {
 								</Link>
 							</li>
 							<li
-								className={clsx('text-font-02 text-sm hover:text-font-01', {
+								className={clsx('text-font-02 text-[24px] font-medium hover:text-font-01', {
 									'text-primary': router.pathname == '/faq',
 								})}
 							>
 								<Link href='/faq'>
 									<a className='flex'>FAQs</a>
+								</Link>
+							</li>
+							<li
+								className={clsx('text-font-02 text-[24px] font-medium hover:text-font-01', {
+									'text-primary': router.pathname == '/about',
+								})}
+							>
+								<Link href='/faq'>
+									<a className='flex'>About</a>
+								</Link>
+							</li>
+							<li
+								className={clsx('text-font-02 text-[24px] font-medium hover:text-font-01', {
+									'text-primary': router.pathname == '/contact-us',
+								})}
+							>
+								<Link href='/faq'>
+									<a className='flex'>Contact</a>
 								</Link>
 							</li>
 						</ul>

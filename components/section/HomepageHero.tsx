@@ -11,17 +11,11 @@ const HomepageHero = () => {
 	useEffect(() => {
 		const typed = new Typed(el.current || '', {
 			strings: [
+				'Hair Stylists.',
 				'Plumber.',
 				'Electrician.',
-				'Hair Stylist.',
-				'Laundry.',
-				'Auto Engineer.',
-				'Cable Engineer/Installation Expert.',
-				'Make-up Artists.',
-				'Carpenter/Furniture Expert.',
-				'Pharmacist/Medical Expert.',
-				'Mobile Engineer.',
-				'Food Vendors.',
+				'Furniture.',
+				'Mechanic.',
 			],
 			startDelay: 300,
 			typeSpeed: 100,
