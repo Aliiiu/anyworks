@@ -33,7 +33,11 @@ const Joinwaitlist = () => {
 							Sending Verified Service Providers At Your Convenience
 						</h1>
 						<p className='text-white mb-[23px] text-justify text-sm lg:text-left w-full lg:w-[95%] lg:mx-[inherit] mx-[auto]'>
-						Locating proficient service providers around your vicinity and when can sometimes be extremely difficult. Anyworks app helps you to reduce such difficulty by connecting you with service providers close to where the service is needed even when you know nobody in the neighborhood thereby saving you stress, time, and money.
+							Locating proficient service providers around your vicinity and
+							when can sometimes be extremely difficult. Anyworks app helps you
+							to reduce such difficulty by connecting you with service providers
+							close to where the service is needed even when you know nobody in
+							the neighborhood thereby saving you stress, time, and money.
 						</p>
 						<form onSubmit={submitHandler}>
 							<div className='flex flex-col items-center gap-x-[20px] md:flex-row justify-center lg:justify-start '>
@@ -51,7 +55,7 @@ const Joinwaitlist = () => {
 							</div>
 						</form>
 					</div>
-					<div className='absolute right-[-10px] w-[150px] hidden xl:block  h-[150px] top-[-240px]'>
+					<div className='absolute right-[-10px] w-[150px] hidden xl:block  h-[150px] top-[-220px]'>
 						<div className='absolute right-6'>
 							<Image
 								src={'/images/sketch.png'}
@@ -62,7 +66,7 @@ const Joinwaitlist = () => {
 							/>
 						</div>
 					</div>
-					<div className='absolute flex-shrink-0 top-[-132px] hidden xl:block right-[70px]'>
+					<div className='absolute flex-shrink-0 top-[-112px] hidden xl:block right-[70px]'>
 						<Image
 							src={'/images/phone-demo.png'}
 							alt='phone demo'
