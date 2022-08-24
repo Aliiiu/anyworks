@@ -11,10 +11,10 @@ const HomepageHero = () => {
 	useEffect(() => {
 		const typed = new Typed(el.current || '', {
 			strings: [
-				'Hair Stylists.',
-				'Plumber.',
-				'Electrician.',
-				'Furniture.',
+				'Hair Stylists,',
+				'Plumber,',
+				'Electrician,',
+				'Furniture,',
 				'Mechanic.',
 			],
 			startDelay: 300,
