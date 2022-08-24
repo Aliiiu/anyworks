@@ -19,7 +19,7 @@ const Benefit: FC<{
 			<div className={classes}>
 				{reasons.map((item, idx) => (
 					<div key={idx} className='flex mb-[20px] md:mb-[30px]'>
-						<div className='mr-[5px] relative w-[32px] h-[32px] flex-shrink-0'>
+						<div className='mr-[5px] relative w-[28px] h-[28px] flex-shrink-0'>
 							<Image
 								src={'/images/star-icon.png'}
 								alt='menu icon'

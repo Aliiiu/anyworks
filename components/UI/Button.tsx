@@ -8,7 +8,7 @@ const Button: FC<{
 	return (
 		<button
 			onClick={onClick}
-			className={`${styles} btnStyle border-solid border-1  px-[20px] py-[12px] rounded-[8px] text-[16px] lg:text-[18px]  border-primary text-white hover:bg-[white] hover:text-primary flex items-center justify-center`}
+			className={`${styles} btnStyle border-solid border-1  px-[20px] py-[12px] rounded-[8px] text-[16px] lg:text-[18px]  border-primary text-white hover:bg-[white] hover:text-primary hover:border flex items-center justify-center`}
 		>
 			{content}
 		</button>
