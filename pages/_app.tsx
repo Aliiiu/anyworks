@@ -8,7 +8,7 @@ import { useRouter } from 'next/router';
 
 function MyApp({ Component, pageProps }: AppProps) {
 	const router = useRouter();
-	const displayPageLayout = router.query.showLayout === 'true' ? false : true;
+	const displayPageLayout = router.query.hideLayout === 'true' ? false : true;
 	return (
 		<>
 			<Head>
