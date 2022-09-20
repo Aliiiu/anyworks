@@ -20,8 +20,8 @@ const LearnMore = () => {
 				<div className='lg:w-[39%] '>
 					<p className='mb-[20px] text-[#667085;]'>
 						We are a trusted platform connecting millions of users
-						<br className='hidden md:block' /> (requiring different services) to
-						reliable and verified <br className='hidden md:block' /> service
+						<br className='hidden md:block' /> (requesting different services)
+						to reliable and verified <br className='hidden md:block' /> service
 						providers. We have identified and screened over 800 different
 						service providers and some may be around your vicinity that you
 						aren’t aware of.
