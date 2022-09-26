@@ -53,11 +53,6 @@ const HomepageHero = () => {
 						miss out on exciting news about Anyworks. Get notified{' '}
 						<br className='hidden md:block' /> immediately when we launch
 					</p>
-					{/* <Link href="/#waitlist">
-								<a>
-									<Button styles="bg-[#7E00C4] mt-[24px] md:mt-[32px]" content={'Join the waitlist'} />
-								</a>
-							</Link> */}
 					<Button
 						styles='bg-primary mt-[18px] md:mt-[24px]'
 						content='Join the Waitlist'
@@ -69,7 +64,7 @@ const HomepageHero = () => {
 				</div>
 				<div className='relative mt-[58px] w-full h-[326px] md:w-[376px] md:h-[500px] md:mt-[89px] lg:mt-[112px] lg:w-[575px] lg:h-[700px]'>
 					<Image
-						src={'/images/hero-new.png'}
+						src={'/images/heroBG.png'}
 						alt='anyworks demo'
 						layout='fill'
 						objectFit='contain'
