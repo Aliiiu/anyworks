@@ -85,7 +85,7 @@ const StepsForArtisians = () => {
 			</div>
 			<div className='relative mt-[80px] hidden lg:block  w-[313px] h-[551px]'>
 				<Image
-					src={'/images/stepsIllustration.png'}
+					src={'/images/mockup2.png'}
 					alt='how it works'
 					layout='fill'
 					objectFit='contain'

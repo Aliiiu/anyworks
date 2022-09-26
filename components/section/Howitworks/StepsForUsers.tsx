@@ -39,7 +39,7 @@ const StepsForUsers = () => {
 		<div className='flex mt-[27px] lg:mt-[64px] mb-[70px] lg:mb-[100px] justify-between w-full'>
 			<div className='relative mt-[50px] hidden lg:block w-[313px] h-[551px]'>
 				<Image
-					src={'/images/stepsIllustration.png'}
+					src={'/images/mockup1.png'}
 					alt='how it works'
 					layout='fill'
 					objectFit='contain'

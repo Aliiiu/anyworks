@@ -68,7 +68,7 @@ const Joinwaitlist = () => {
 					</div>
 					<div className='absolute flex-shrink-0 top-[-112px] hidden xl:block right-[70px]'>
 						<Image
-							src={'/images/phone-demo.png'}
+							src={'/images/waitlist-mockup2.png'}
 							alt='phone demo'
 							width={'273px'}
 							height='505px'
