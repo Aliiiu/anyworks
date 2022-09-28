@@ -16,8 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 				<meta name='theme-color' content='#7e00c4' />
 				<meta
 					name='description'
-					content='We connects you to verified and professional service
-providers within your specified geo-location.'
+					content='We connect you to verified and professional service providers within your geo-location.'
 				/>
 				<meta
 					name='keywords'
@@ -39,10 +38,12 @@ providers within your specified geo-location.'
 				<meta property='og:url' content='https://www.anyworks-ng.com' />
 				<meta
 					property='og:description'
-					content='We connects you to verified and professional service
-providers within your specified geo-location.'
+					content='We connect you to verified and professional service providers within your geo-location.'
 				/>
-				<meta property='og:image' content='/icon.png' />
+				<meta
+					property='og:image'
+					content='https://www.anyworks-ng.com/images/favicon.jpg'
+				/>
 				{/* <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:description" content="Growth tools to upscale your fashion business." />
         <meta name="twitter:site" content="@stitchvine" />
