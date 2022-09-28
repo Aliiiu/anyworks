@@ -42,7 +42,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 				/>
 				<meta
 					property='og:image'
-					content='https://www.anyworks-ng.com/images/favicon.jpg'
+					content='https://www.anyworks-ng.com/images/favicon.png'
 				/>
 				{/* <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:description" content="Growth tools to upscale your fashion business." />
@@ -54,7 +54,22 @@ function MyApp({ Component, pageProps }: AppProps) {
 
 				<link
 					rel='shortcut icon'
-					href='https://www.anyworks-ng.com/images/favicon.jpg'
+					href='https://www.anyworks-ng.com/images/favicon.png'
+				/>
+				{/*<!-- Global site tag (gtag.js) - Google Analytics -->*/}
+				<script
+					async
+					src='https://www.googletagmanager.com/gtag/js?id=G-Y94F9K03FY'
+				></script>
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `
+						window.dataLayer = window.dataLayer || [];
+						function gtag(){dataLayer.push(arguments);}
+						gtag('js', new Date());
+						gtag('config', 'G-Y94F9K03FY')
+					`,
+					}}
 				/>
 			</Head>
 
