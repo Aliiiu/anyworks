@@ -54,11 +54,16 @@ const Privacypolicy = () => {
 						Privacy Policy
 					</h2>
 					<p className='mb-[15px] xl:mb-[25px]'>
-						This privacy policy applies between you, the User of this Website,
-						and ANYWORKS, the owner and provider of this Website. ANYWORKS takes
-						the privacy of your information very seriously. This privacy policy
-						applies to our use of any and all Data collected by us or provided
-						by you in relation to your use of the Website. <br />
+						(We, our, or us) is committed to protecting your privacy. This
+						Privacy Policy explains how your personal information is collected,
+						used, and disclosed by ANYWORKS. This Privacy Policy applies to our
+						website: www.anyworks-ng.com, and its associated subdomains
+						(collectively, our Service) alongside our applications, Anyworks and
+						Anyworks Artisan. ANYWORKS takes the privacy of your information
+						very seriously. By accessing or using our Service, you signify that
+						you have read, understood, and agree to our collection, storage,
+						use, and disclosure of your personal information as described in
+						this Privacy Policy and our Terms of Service. <br />
 					</p>
 					<h5 className='font-bold text-primary'>
 						Please read this privacy policy carefully.
@@ -108,30 +113,37 @@ const Privacypolicy = () => {
 					<h3 className='text-primary text-2xl text-left'>Data collected</h3>
 					<p className='mb-[15px] xl:mb-[25px]'>
 						{' '}
-						<span className='font-bold mr-3'>5.</span> We may collect the
-						following Data, which includes personal Data, from you: <br /> a.
-						name; b. date of birth; <br /> c. gender; <br /> d. job title;{' '}
-						<br /> e. profession; <br /> f. contact Information such as email
-						addresses and telephone numbers; <br /> g. demographic information
-						such as postcode, preferences and interests; <br />
-						h. financial information such as credit / debit card numbers; <br />{' '}
-						i. IP address (automatically collected); <br /> j. web browser type
-						and version (automatically collected); <br />
-						k. operating system (automatically collected); <br />
-						l. a list of URLs starting with a referring site, your activity on
-						this Website, and the site you exit to (automatically collected);{' '}
-						<br /> m. none; <br /> in each case, in accordance with this privacy
-						policy.
+						<span className='font-bold mr-3'>5.</span>We collect information
+						from you when you visit our service, register, place an order,
+						subscribe to our newsletter, respond to a survey or fill out a form.{' '}
+						<br />
+						a. Name; <br /> b. Date of birth; <br />
+						c. Gender; <br />
+						d. Job Title; <br /> e. Profession; <br />
+						f. Contact Information such as email addresses and telephone
+						numbers; <br /> g. Demographic information such as postcode,
+						preferences and interests; <br /> h. Financial information such as
+						credit / debit card numbers; <br /> i. IP address (automatically
+						collected); <br /> j. Web browser type and version (automatically
+						collected); <br /> k. Operating system (automatically collected);{' '}
+						<br /> l. a list of URLs starting with a referring site, your
+						activity on this Website, and the site you exit to (automatically
+						collected); <br /> m. Location <br /> n. Password <br />
+						In each case, in accordance with this privacy policy.
 					</p>
 					<h3 className='text-primary text-2xl text-left'>
 						How we collect Data
 					</h3>
 					<p className='mb-[15px] xl:mb-[25px]'>
 						{' '}
-						<span className='font-bold mr-3'>6.</span> We collect Data in the
+						<span className='font-bold mr-3'>6.</span>We collect Data in the
 						following ways: <br /> a. data is given to us by you; <br /> b. data
-						is received from other sources; <br /> and c. data is collected
-						automatically.
+						is received from other sources; <br /> c. Depending on the Services
+						that you use, your app settings or device permissions, we collect
+						location data through data such as GPS and IP address. <br /> d.
+						Anyworks collects location information to enable realtime location
+						tracking in the background <br />
+						e. data is collected automatically.
 					</p>
 					<h3 className='text-primary text-2xl text-left'>
 						Data that is given to us by you
