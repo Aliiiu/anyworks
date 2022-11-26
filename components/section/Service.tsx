@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { BsArrowUpRight } from 'react-icons/bs';
 
@@ -9,7 +8,7 @@ const ServiceSection = () => {
 				One Platform <br /> Many <span className='text-primary'>Services</span>
 			</h1>
 			<p className='text-[#00CCCD] mt-[23px] mb-[35px]'>
-				Here are the most popular service providers readily available to{' '}
+				Here are the most popular vendors readily available to{' '}
 				<br className='hidden md:block' /> deliver quality services to you. Tap
 				the icon to “explore all”
 			</p>

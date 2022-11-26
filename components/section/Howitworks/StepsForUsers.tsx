@@ -15,22 +15,22 @@ const steps: stepsType[] = [
 	{
 		icon: '/images/menu_2.png',
 		title: 'Book a Service',
-		content: `Request service and get connected immediately with a qualified artisan close to your location.`,
+		content: `Request service and get connected immediately with a qualified vendor close to your location.`,
 	},
 	{
 		icon: '/images/menu_3.png',
 		title: 'Negotiate fees with service provider.',
-		content: `Connect with the artisan using the chat or call feature on the app to discuss further the work and strike a bargain.`,
+		content: `Connect with the vendor using the chat or call feature on the app to discuss further the work and strike a bargain.`,
 	},
 	{
 		icon: '/images/menu_4.png',
 		title: 'Make payment',
-		content: `Once the artisan gets the job done, make payment.`,
+		content: `Once the vendor gets the job done, make payment.`,
 	},
 	{
 		icon: '/images/menu_2.png',
 		title: 'Rate services',
-		content: `Give a review of your satisfaction with the service offered by the artisan. Other users of Anyworks can see this.`,
+		content: `Give a review of your satisfaction with the service offered by the vendor. Other customers of AnyworkX can see this.`,
 	},
 ];
 
@@ -47,8 +47,8 @@ const StepsForUsers = () => {
 			</div>
 			<div className='md:w-[63%] relative'>
 				<h3 className='font-semibold text-[#1D2939] lg:leading-[45px] leading-[38px] text-left capitalize'>
-					Easy steps For <br /> All Anyworks{' '}
-					<span className='text-[#7E00C4]'>Users</span>
+					Easy steps For <br /> All AnyworkX{' '}
+					<span className='text-[#7E00C4]'>Customers</span>
 				</h3>
 				<div className='absolute hidden xl:block top-[-10px] right-[130px]'>
 					<Image

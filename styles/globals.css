@@ -65,6 +65,23 @@ a {
 	transition: 0.3s;
 }
 
+.tooltip:hover .tooltip-text{
+	visibility: visible;
+  }
+  
+  .tooltip-text{
+	visibility: hidden;
+	font-size: 12px;
+	  line-height: 20px;
+	  background: white;
+	  border-radius: 7px;
+	  padding: 5px 7px;
+	  min-width: 95px;
+	  transform: translate(-50%, -50%);
+	  min-height: fit-content;
+	  box-shadow: rgb(0 0 0 / 10%) 0px 10px 24px;
+  }  
+
 h1 {
 	font-family: 'Raleway';
 	font-style: normal;

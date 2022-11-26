@@ -13,7 +13,7 @@ shopping cart or make use of e-billing services.`,
 		purpose: `They allow us to recognise and count the number of
 visitors and to see how visitors move around our website
 when they are using it. This helps us to improve the way
-our website works, for example, by ensuring that users
+our website works, for example, by ensuring that customers
 are finding what they are looking for easily.`,
 	},
 	{

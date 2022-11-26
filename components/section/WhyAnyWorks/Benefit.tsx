@@ -14,7 +14,7 @@ const Benefit: FC<{
 	return (
 		<div className={divClass}>
 			<h3 className='text-[#7E00C4] text-[28px] lg:text-[36px] font-bold text-center'>
-				WHY ANYWORKS ?
+				WHY ANYWORKX ?
 			</h3>
 			<div className={classes}>
 				{reasons.map((item, idx) => (

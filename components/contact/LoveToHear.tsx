@@ -11,7 +11,7 @@ const contacts: Contact[] = [
 		image: '/images/contact/email.svg',
 		title: 'Email',
 		content: 'Our friendly team is here to help.',
-		info: <a href='mailto:info@anyworks-ng.com'>info@anyworks-ng.com</a>,
+		info: <a href='mailto:support@anyworkx.com'>support@anyworkx.com</a>,
 
 	},
 	{

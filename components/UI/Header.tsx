@@ -5,13 +5,11 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import styles from '../../styles/Header.module.css';
 import clsx from 'clsx';
-import Modal from './Modal';
 
 const Header: FC<{}> = () => {
 	const [headerStyle, setHeaderStyle] = useState(false);
 	const router = useRouter();
 	const [isOpen, setIsOpen] = useState(false);
-	const [showModal, setShowmodal] = useState(false);
 
 	useEffect(() => {
 		if (typeof window !== 'undefined') {
@@ -45,21 +43,14 @@ const Header: FC<{}> = () => {
 					{ 'bg-white': isOpen }
 				)}
 			>
-				{showModal && (
-					<Modal
-						selector={'overlay-root'}
-						Bselector={'backdrop-root'}
-						onClick={() => setShowmodal(false)}
-					/>
-				)}
 				<div className='container lg:px-[112px] px-[33px]'>
 					<header className='flex items-center justify-between'>
 						<Link href='/'>
 							<a className='flex'>
 								<Image
 									className='cursor-pointer'
-									src={'/images/anyworks-logo.png'}
-									alt='anyworks logo'
+									src={'/images/anyworkx-logo.png'}
+									alt='anyworkx logo'
 									height={45}
 									width={137}
 								/>
@@ -83,12 +74,14 @@ const Header: FC<{}> = () => {
 								</li>
 							</ul>
 						</nav>
+						<Link href='https://play.google.com/store/apps/details?id=com.anyworks.artisan'>
+						<a target="_blank">
 						<Button
 							styles='bg-primary mlg:block hidden'
-							content='Join the Waitlist'
-							onClick={() => setShowmodal(true)}
-						/>
-
+							content='Get Vendor App'
+					/>
+						</a>
+					</Link>
 						{isOpen ? (
 							<div
 								className='cursor-pointer flex mlg:hidden w-[20px]'

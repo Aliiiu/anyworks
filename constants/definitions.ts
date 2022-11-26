@@ -2,7 +2,7 @@ const definitions = [
 	{
 		id: 1,
 		word: 'Data',
-		definition: `collectively all information that you submit to ANYWORKS via the Website. This definition
+		definition: `collectively all information that you submit to ANYWORKX via the Website. This definition
 incorporates, where applicable, the definitions provided in the Data Protection Laws;`,
 	},
 	{
@@ -26,8 +26,8 @@ legislation;`,
 	},
 	{
 		id: 5,
-		word: 'ANYWORKS, we or us',
-		definition: `ANYWORKS of 2nd floor, Awolowo House, Obafemi Awolowo way, Ikeja., P.O.Box 5013, Ikeja.
+		word: 'ANYWORKX, we or us',
+		definition: `ANYWORKX of 2nd floor, Awolowo House, Obafemi Awolowo way, Ikeja., P.O.Box 5013, Ikeja.
 , Lagos-State Nigeria, LAGOS, 600000;`,
 	},
 	{
@@ -40,14 +40,14 @@ Privacy and Electronic Communications (EC Directive) (Amendment) Regulations 201
 	{
 		id: 7,
 		word: 'User or you',
-		definition: `any third party that accesses the Website and is not either (i) employed by ANYWORKS and acting
+		definition: `any third party that accesses the Website and is not either (i) employed by ANYWORKX and acting
 in the course of their employment or (ii) engaged as a consultant or otherwise providing services to
-ANYWORKS and accessing the Website in connection with the provision of such services; and`,
+ANYWORKX and accessing the Website in connection with the provision of such services; and`,
 	},
 	{
 		id: 8,
 		word: 'Website',
-		definition: `the website that you are currently using, www.anyworks-ng.com, and any sub-domains of this siteunless expressly excluded by their own terms and conditions.`,
+		definition: `the website that you are currently using, www.anyworkx-ng.com, and any sub-domains of this siteunless expressly excluded by their own terms and conditions.`,
 	},
 ];
 

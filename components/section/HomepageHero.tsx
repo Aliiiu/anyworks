@@ -1,13 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
-import Button from '../UI/Button';
 import Image from 'next/image';
-import Link from 'next/link';
 import Typed from 'typed.js';
-import Modal from '../UI/Modal';
+import Button from '../UI/Button';
+import Link from 'next/link';
 
 const HomepageHero = () => {
 	const el = useRef<HTMLSpanElement>(null);
-	const [showModal, setShowmodal] = useState(false);
 	useEffect(() => {
 		const typed = new Typed(el.current || '', {
 			strings: [
@@ -31,13 +29,6 @@ const HomepageHero = () => {
 
 	return (
 		<div>
-			{showModal && (
-				<Modal
-					selector={'overlay-root'}
-					Bselector={'backdrop-root'}
-					onClick={() => setShowmodal(false)}
-				/>
-			)}
 			<div className='flex flex-col md:flex-row justify-between container px-[33px] lg:px-[112px]'>
 				<div className='lg:mt-[180px] mt-[145px] md:w-[48%]'>
 					<h1 className='underline'>
@@ -47,17 +38,21 @@ const HomepageHero = () => {
 						Anytime.
 					</h1>
 					<p className='text-[#1D2939] mt-[18px] md:mt-[24px]'>
-						Anyworks connects you to verified and professional service
+						AnyworkX connects you to verified and professional service
 						<br className='hidden md:block' /> providers within your specified
 						geo-location. You don’t want <br className='hidden md:block' /> to
-						miss out on exciting news about Anyworks. Get notified{' '}
+						miss out on exciting news about AnyworkX. Get notified{' '}
 						<br className='hidden md:block' /> immediately when we launch
 					</p>
-					<Button
+					
+					<Link href='https://play.google.com/store/apps/details?id=com.anyworks.artisan'>
+						<a target="_blank">
+						<Button
 						styles='bg-primary mt-[18px] md:mt-[24px]'
-						content='Join the Waitlist'
-						onClick={() => setShowmodal(true)}
+						content='Get Vendor App'
 					/>
+						</a>
+					</Link>
 					<p className='italic mt-[10px] text-[16px]'>
 						It takes less than 1 minute
 					</p>
@@ -65,7 +60,7 @@ const HomepageHero = () => {
 				<div className='relative mt-[58px] w-full h-[326px] md:w-[376px] md:h-[500px] md:mt-[89px] lg:mt-[112px] lg:w-[575px] lg:h-[700px]'>
 					<Image
 						src={'/images/heroBG.png'}
-						alt='anyworks demo'
+						alt='anyworkx demo'
 						layout='fill'
 						objectFit='contain'
 					/>

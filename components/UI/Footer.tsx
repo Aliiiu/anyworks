@@ -70,7 +70,7 @@ const Footer = () => {
 					</div>
 					<div className='flex flex-col-reverse xs:flex-row justify-between w-full  md:py-[50px] py-[32px] px-[32px] gap-[20px] lg:px-[114px]'>
 						<p className='text-xs text-white'>
-							© 2022 AnyWorks. All rights reserved.
+							© 2022 AnyWorkX. All rights reserved.
 						</p>
 						<div
 							className='flex items-center gap-4 xs:grid'

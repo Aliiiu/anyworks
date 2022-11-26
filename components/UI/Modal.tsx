@@ -3,6 +3,7 @@ import React, { Fragment, useContext, useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import WaitlistContext from '../../context/waitlist-context';
 import Button from './Button';
+import Link from 'next/link';
 
 interface Props {
 	onClick: any;
@@ -82,10 +83,14 @@ const OverLayModal = ({ onClick }: Props) => {
 								className='px-[12px] placeholder:text-xs text-sm py-[8px] w-full inputBorder'
 							/>
 						</div>
+						<Link href='https://play.google.com/store/apps/details?id=com.anyworks.artisan'>
+						<a target="_blank">
 						<Button
-							content={'Join the Waitlist'}
 							styles='bg-primary w-full mt-[15px]'
-						/>
+							content='Get Vendor App'
+					/>
+						</a>
+					</Link>
 					</form>
 				</div>
 			</div>
