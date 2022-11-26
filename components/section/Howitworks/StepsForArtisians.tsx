@@ -11,7 +11,7 @@ const steps: stepsType[] = [
 	{
 		icon: '/images/menu_1.png',
 		title: 'Register',
-		content: `Download the ANYWORKX app and register as a service provider. Submit all required information and documents for verification and background check.`,
+		content: `Download the AnyworkX Vendor App and register as a Vendor. Submit all required information and documents for verification and background check.`,
 	},
 	{
 		icon: '/images/menu_2.png',
@@ -87,7 +87,7 @@ const StepsForArtisians = () => {
 				<div className='block lg:hidden mt-[20px]'>
 				<Link  href='https://play.google.com/store/apps/details?id=com.anyworks.artisan'>
 						<a target="_blank">
-						<div className='pr-8 cursor-pointer'>
+						<div className='pr-8 cursor-pointer flex justify-center'>
 			<Image
 					src={'/images/google-play-badge.png'}
 					alt='get'

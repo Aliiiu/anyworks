@@ -18,7 +18,7 @@ export const reasons: reasonType[] = [
 		id: 3,
 		title: 'Verified vendors',
 		content:
-			'We have made rigorous attempt to verify listed vendors and they have gone through our mandatory computer based customer service training to deliver quality service. the app provides you with the opportunity to track the distance of the service provider to your location.',
+			'We have made rigorous attempt to verify listed vendors and they have gone through our mandatory computer based customer service training to deliver quality service. the app provides you with the opportunity to track the distance of the Vendor to your location.',
 	},
 	{
 		id: 4,

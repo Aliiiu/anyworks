@@ -41,7 +41,7 @@ const Joinwaitlist = () => {
 							the neighborhood thereby saving you stress, time, and money.
 						</p>
 						<>
-							<div className='flex flex-col items-center gap-x-[20px] md:flex-row justify-center lg:justify-start '>
+							<div className='flex items-center flex-wrap gap-3 justify-center lg:justify-start '>
 								{/* <input
 									type='mail'
 									onChange={changeHandler}
@@ -52,19 +52,19 @@ const Joinwaitlist = () => {
 								
 								<Link href='https://play.google.com/store/apps/details?id=com.anyworks.artisan'>
 						<a target="_blank">
-						<Button
-									styles='bg-[#210639] mt-[24px] md:w-[auto] w-full max-w-[410px] md:min-h-[45px] min-h-[50px] h-[45px] xl:w-[auto]  md:mt-[0px]'
-									content='Get Vendor App
-									'
-								/>
+						<button
+			className='btnStyle border-solid border-1  px-[10px] md:px-[20px] bg-[#210639] py-[12px] rounded-[8px] text-[10px] xs:text-[14px] md:text-[16px] lg:text-[18px]  border-primary text-white hover:bg-[white] hover:text-primary hover:border-white flex items-center justify-center'
+		>
+			Get Vendor App
+		</button>
 						</a>
 					</Link>
 								<div className="cursor-pointer  tooltip relative">
-								<Button
-									styles='bg-[#210639] mt-[24px] md:w-[auto] w-full max-w-[410px] md:min-h-[45px] min-h-[50px] h-[45px] xl:w-[auto]  md:mt-[0px]'
-									content='Get Customer App
-									'
-								/>
+								<button
+			className='btnStyle border-solid border-1  px-[10px] md:px-[20px] bg-[#210639] py-[12px] rounded-[8px] text-[10px] xs:text-[14px] md:text-[16px] lg:text-[18px]  border-primary text-white hover:bg-[white] hover:text-primary hover:border-white flex items-center justify-center'
+		>
+			Get Customer App
+		</button>
                     <p className='tooltip-text absolute bottom-[-90%] left-[50%]'>Coming soon</p>
                 </div>
 								

@@ -19,7 +19,7 @@ const steps: stepsType[] = [
 	},
 	{
 		icon: '/images/menu_3.png',
-		title: 'Negotiate fees with service provider.',
+		title: 'Negotiate fees with Vendor.',
 		content: `Connect with the vendor using the chat or call feature on the app to discuss further the work and strike a bargain.`,
 	},
 	{

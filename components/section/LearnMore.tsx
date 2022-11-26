@@ -21,8 +21,7 @@ const LearnMore = () => {
 					<p className='mb-[20px] text-[#667085;]'>
 						We are a trusted platform connecting millions of customers
 						<br className='hidden md:block' /> (requesting different services)
-						to reliable and verified <br className='hidden md:block' /> service
-						providers. We have identified and screened over 800 different
+						to reliable and verified <br className='hidden md:block' /> Vendors. We have identified and screened over 800 different
 						vendors and some may be around your vicinity that you
 						aren’t aware of.
 					</p>

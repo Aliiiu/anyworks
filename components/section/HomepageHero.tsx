@@ -38,8 +38,8 @@ const HomepageHero = () => {
 						Anytime.
 					</h1>
 					<p className='text-[#1D2939] mt-[18px] md:mt-[24px]'>
-						AnyworkX connects you to verified and professional service
-						<br className='hidden md:block' /> providers within your specified
+						AnyworkX connects you to verified and professional Vendors
+						<br className='hidden md:block' /> within your specified
 						geo-location. You don’t want <br className='hidden md:block' /> to
 						miss out on exciting news about AnyworkX. Get notified{' '}
 						<br className='hidden md:block' /> immediately when we launch
@@ -53,9 +53,6 @@ const HomepageHero = () => {
 					/>
 						</a>
 					</Link>
-					<p className='italic mt-[10px] text-[16px]'>
-						It takes less than 1 minute
-					</p>
 				</div>
 				<div className='relative mt-[58px] w-full h-[326px] md:w-[376px] md:h-[500px] md:mt-[89px] lg:mt-[112px] lg:w-[575px] lg:h-[700px]'>
 					<Image
