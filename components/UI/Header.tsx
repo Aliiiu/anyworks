@@ -148,7 +148,7 @@ const Header: FC<{}> = () => {
 									'text-primary': router.pathname == '/about',
 								})}
 							>
-								<Link href='/faq'>
+								<Link href='/about'>
 									<a className='flex'>About</a>
 								</Link>
 							</li>
@@ -157,7 +157,7 @@ const Header: FC<{}> = () => {
 									'text-primary': router.pathname == '/contact-us',
 								})}
 							>
-								<Link href='/faq'>
+								<Link href='/contact-us'>
 									<a className='flex'>Contact</a>
 								</Link>
 							</li>
