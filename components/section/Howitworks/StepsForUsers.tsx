@@ -48,7 +48,7 @@ const StepsForUsers = () => {
 			<div className='md:w-[63%] relative'>
 				<h3 className='font-semibold text-[#1D2939] lg:leading-[45px] leading-[38px] text-left capitalize'>
 					Easy steps For <br /> All AnyWorkX{' '}
-					<span className='text-[#7E00C4]'>Customers</span>
+					<span className='text-[#7E00C4]'>- Customers</span>
 				</h3>
 				<div className='absolute hidden xl:block top-[-10px] right-[130px]'>
 					<Image
