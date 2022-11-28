@@ -38,10 +38,10 @@ const HomepageHero = () => {
 						Anytime.
 					</h1>
 					<p className='text-[#1D2939] mt-[18px] md:mt-[24px]'>
-						AnyworkX connects you to verified and professional Vendors
+						AnyWorkX connects you to verified and professional Vendors
 						<br className='hidden md:block' /> within your specified
 						geo-location. You don’t want <br className='hidden md:block' /> to
-						miss out on exciting news about AnyworkX. Get notified{' '}
+						miss out on exciting news about AnyWorkX. Get notified{' '}
 						<br className='hidden md:block' /> immediately when we launch
 					</p>
 					

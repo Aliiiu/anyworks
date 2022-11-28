@@ -30,7 +30,7 @@ const steps: stepsType[] = [
 	{
 		icon: '/images/menu_2.png',
 		title: 'Rate services',
-		content: `Give a review of your satisfaction with the service offered by the vendor. Other customers of AnyworkX can see this.`,
+		content: `Give a review of your satisfaction with the service offered by the vendor. Other customers of AnyWorkX can see this.`,
 	},
 ];
 
@@ -47,7 +47,7 @@ const StepsForUsers = () => {
 			</div>
 			<div className='md:w-[63%] relative'>
 				<h3 className='font-semibold text-[#1D2939] lg:leading-[45px] leading-[38px] text-left capitalize'>
-					Easy steps For <br /> All AnyworkX{' '}
+					Easy steps For <br /> All AnyWorkX{' '}
 					<span className='text-[#7E00C4]'>Customers</span>
 				</h3>
 				<div className='absolute hidden xl:block top-[-10px] right-[130px]'>

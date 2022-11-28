@@ -11,7 +11,7 @@ const steps: stepsType[] = [
 	{
 		icon: '/images/menu_1.png',
 		title: 'Register',
-		content: `Download the AnyworkX - Vendor App and register as a Vendor. Submit all required information and documents for verification and background check.`,
+		content: `Download the AnyWorkX - Vendor App and register as a Vendor. Submit all required information and documents for verification and background check.`,
 	},
 	{
 		icon: '/images/menu_2.png',
@@ -21,7 +21,7 @@ const steps: stepsType[] = [
 	{
 		icon: '/images/menu_3.png',
 		title: 'Negotiate Price',
-		content: `Use the chat or call section on AnyworkX to connect with the customer and reach an agreement.`,
+		content: `Use the chat or call section on AnyWorkX to connect with the customer and reach an agreement.`,
 	},
 	{
 		icon: '/images/menu_4.png',
@@ -31,7 +31,7 @@ const steps: stepsType[] = [
 	{
 		icon: '/images/menu_1.png',
 		title: 'Receive Payment Through the Wallet',
-		content: `Get paid via the wallet feature on AnyworkX.`,
+		content: `Get paid via the wallet feature on AnyWorkX.`,
 	},
 ];
 
@@ -49,7 +49,7 @@ const StepsForArtisians = () => {
 		
 			<div className='xl:w-[60%]'>
 				<h3 className='font-semibold capitalize text-left leading-[45px] text-[#1D2939]'>
-					Easy steps For <br /> AnyworkX{' '}
+					Easy steps For <br /> AnyWorkX{' '}
 					<span className='text-[#7E00C4]'>vendors</span>
 				</h3>
 				<div className='absolute hidden xl:block top-50 left-10'>

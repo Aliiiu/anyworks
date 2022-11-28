@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 				/>
 				<meta
 					name='keywords'
-					content='AnyworkX, vendors, Plumber,
+					content='AnyWorkX, vendors, Plumber,
 		  Electrician,
 		  Hair Stylist,
 		  Laundry,
@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 		  Food Vendors'
 				/>
 				{/* <meta property="image:alt_text" content="Stitchvine logo in white on purple background" /> */}
-				<meta property='og:site_name' content='AnyworkX' />
+				<meta property='og:site_name' content='AnyWorkX' />
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://www.anyworkx-ng.com' />
 				<meta
