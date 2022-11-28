@@ -35,7 +35,7 @@ const Joinwaitlist = () => {
 						</h1>
 						<p className='text-white mb-[23px] text-justify text-sm lg:text-left w-full lg:w-[95%] lg:mx-[inherit] mx-[auto]'>
 							Locating proficient vendors around your vicinity and
-							when can sometimes be extremely difficult. AnyworkX app helps you
+							when can sometimes be extremely difficult. AnyWorkX app helps you
 							to reduce such difficulty by connecting you with vendors
 							close to where the service is needed even when you know nobody in
 							the neighborhood thereby saving you stress, time, and money.

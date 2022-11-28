@@ -59,7 +59,7 @@ const Privacypolicy = () => {
 						used, and disclosed by ANYWORKX. This Privacy Policy applies to our
 						website: www.anyworkx-ng.com, and its associated subdomains
 						(collectively, our Service) alongside our applications, AnyworkX and
-						AnyworkX Vendor. ANYWORKX takes the privacy of your information
+						AnyworkX - Vendor. ANYWORKX takes the privacy of your information
 						very seriously. By accessing or using our Service, you signify that
 						you have read, understood, and agree to our collection, storage,
 						use, and disclosure of your personal information as described in

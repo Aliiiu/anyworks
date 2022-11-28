@@ -11,7 +11,7 @@ const steps: stepsType[] = [
 	{
 		icon: '/images/menu_1.png',
 		title: 'Register',
-		content: `Download the AnyworkX Vendor App and register as a Vendor. Submit all required information and documents for verification and background check.`,
+		content: `Download the AnyworkX - Vendor App and register as a Vendor. Submit all required information and documents for verification and background check.`,
 	},
 	{
 		icon: '/images/menu_2.png',
